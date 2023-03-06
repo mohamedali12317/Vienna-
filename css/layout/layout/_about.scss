@@ -910,7 +910,7 @@ header .navigation .navigation-items .menu:before , .header-black  .navigation .
  
  }
 
- @media (max-width: 797px){
+ @media (max-width: 800px){
   .box-drink{
     // margin: 124px 0px 0 116px !important;
     margin: -4px 0px 0 116px !important;
@@ -1065,7 +1065,7 @@ width: 1919px;
   }
 } // 767
 
-@media (max-width: 703px){
+@media (max-width: 800px){
   .sl{
     // overflow: hidden
     .carousel-inner{
@@ -1081,51 +1081,67 @@ width: 1919px;
       }
      }
 
-      img{
-        object-fit: cover;
-      }
     }
   }
 
   
 }  // 703
 
- @media (max-width: 703px){
+ @media (max-width: 800px){
   .box-drink {
-    padding: 0px 0 0px 0 !important;
+    padding: 0px 346px 0px 0 !important;
     margin: -1px 0px 0 72px !important;
-    top: 552px;
-    width: 506px !important;
+    top: 529px;
+    width: 690px !important;
     background: none;
 
       h3{
         font: normal normal normal 57px/55px Futura CAPTION !important;
-        font-size: 58px !important;
+        font-size: 41px !important;
         letter-spacing: -1.14px;
-        padding-right: 39px;
+        padding-right: 0px;
         line-height: 62px !important;
         height: 128px;
 
         &::before{
-          width: 282px;
-          transform: translate(140px, 74px); 
-        } // before
+          width: 218px;
+          transform: translate(100px, 74px);
+          -webkit-transform: translate(100px, 74px);
+          -moz-transform: translate(100px, 74px);
+          -ms-transform: translate(100px, 74px);
+          -o-transform: translate(100px, 74px);
+} // before
       } // h3
   } // box-drink
 
 }
 
+@media (max-width: 800px){
+  .box-drink{
+    width: 521px !important;
+    padding: 0px 222px 0px 0 !important;
+  } // box-drink
+} // 713
+
 @media (max-width: 599px){
   .box-drink{
-      width: 487px !important;
+      width: 525px !important;
       margin: -1px 0px 0 36px !important;
   }
 
 } // 599
 
+@media (max-width: 571px){
+  .box-drink{
+      width: 423px !important;
+      padding: 0px 87px 0px 0 !important;
+  }
+
+} // 571
+
 @media (max-width: 543px){
   .box-drink{
-      width: 338px !important;
+      // width: 338px !important;
       margin: -1px 0px 0 36px !important;
 
       h3{
@@ -1133,13 +1149,39 @@ width: 1919px;
         padding-right: 0;
 
         &::before{
-          width: 170px;
+          // width: 170px;
         } // before
       } // h3
   } // box drink
 
 } // 543
 
+@media (max-width: 458px){
+  .box-drink{
+      width: 393px !important;
+  } // box drink
+
+} // 458
+
+@media (max-width: 417px){
+  .box-drink{
+      width: 324px !important;
+
+      h3{
+        font-size: 33px !important;
+        
+        &::before{
+          width: 164px !important;
+          transform: translate(78px, 74px) !important;
+          -webkit-transform: translate(78px, 74px) !important;
+          -moz-transform: translate(78px, 74px) !important;
+          -ms-transform: translate(78px, 74px) !important;
+          -o-transform: translate(78px, 74px) !important;
+}
+      }
+  } // box drink
+
+} // 417
 
 
 .small{
@@ -5913,6 +5955,9 @@ img.card-img-top{
     a{
       text-decoration: none;
       color: $white;
+      p{
+        font: normal normal medium 15px/20px Futura PT;
+      }
     }
 
     .col-3{
@@ -5936,6 +5981,7 @@ img{
 
 }// meaid-2
 
+p{font:  normal normal normal 15px/20px Futura PT}// p
 
 .col-9{
   padding-left: 79px;
@@ -5985,21 +6031,6 @@ img{
         
         
         } //max-width: 637px 530px
-
-        @media (max-width: 613px){
- 
-          .footer{
-            // width: 80%;
-            width: 75%;
-
-            .col-9{
-              padding-left:0;
-            }
-          } // footer
-
-          
-          
-          } //max-width: 613px
 
 
       @media (max-width: 793px){
@@ -6061,7 +6092,8 @@ img{
 
  
           .footer{
-            padding: 86px 0px 0px 12px;
+              width: 85%;
+            padding: 0px 0px 0px 12px;
             
             .dad{
               gap: 0px;
@@ -6071,7 +6103,8 @@ img{
             .logo{
               display: flex;
               flex-direction: column;
-              margin: 0 0 70px 256px;
+              margin: 0 0 70px 196px;
+              width: 116px;
             }// logo
 
             .link-1{
@@ -6094,7 +6127,23 @@ img{
           
           } //max-width: 637px
 
-
+          @media (max-width: 613px){
+ 
+            .footer{
+              // width: 80%;
+              width: 39% !important;
+  
+              .col-9{
+                padding-left:0;
+                width: 100%;
+              }
+            } // footer
+  
+            p{
+              font: normal normal normal 15px/17px Futura PT;
+            }
+            
+            } //max-width: 613px
 
 
           @media (max-width: 544px){
@@ -6139,7 +6188,7 @@ img{
         @media (max-width: 485px){
  
               .footer{
-                padding: 86px 0px 0px 32px;
+                padding: 0px 0px 0px 32px;
                 
                 .dad{
                   gap: 0px;
@@ -6148,6 +6197,7 @@ img{
     
                 .logo{
                   margin: 0 0 70px 10px;
+                  width: 116px;
                 }// logo
     
                 .link-1{
