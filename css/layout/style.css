@@ -2165,7 +2165,7 @@ h1 {
   }
 }
 @media (max-width: 767px) {
-  .card-group.mt-5 {
+  .card-group {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
@@ -2258,7 +2258,7 @@ h1 {
   }
 }
 @media (max-width: 575px) {
-  .card-group.mt-5 {
+  .card-group {
     width: 400px;
     transform: translateX(18%) skew(0, 2deg);
     -webkit-transform: translateX(18%) skew(0, 2deg);
@@ -2313,7 +2313,7 @@ h1 {
   }
 }
 @media (max-width: 519px) {
-  .card-group.mt-5 {
+  .card-group {
     transform: translateX(11%) skew(0, 2deg);
     -webkit-transform: translateX(11%) skew(0, 2deg);
     -moz-transform: translateX(11%) skew(0, 2deg);
@@ -2322,7 +2322,7 @@ h1 {
   }
 }
 @media (max-width: 434px) {
-  .card-group.mt-5 {
+  .card-group {
     width: 325px;
   }
   .card-group .card .colm-3 {
@@ -2354,7 +2354,7 @@ h1 {
   }
 }
 @media (max-width: 486px) {
-  .card-group.mt-5 {
+  .card-group {
     transform: translateX(7%) skew(0, 2deg);
     -webkit-transform: translateX(7%) skew(0, 2deg);
     -moz-transform: translateX(7%) skew(0, 2deg);
@@ -2363,7 +2363,7 @@ h1 {
   }
 }
 @media (max-width: 470px) {
-  .card-group.mt-5 {
+  .card-group {
     transform: translateX(-1%) skew(0, 2deg);
     -webkit-transform: translateX(-1%) skew(0, 2deg);
     -moz-transform: translateX(-1%) skew(0, 2deg);
@@ -2372,7 +2372,7 @@ h1 {
   }
 }
 @media (max-width: 433px) {
-  .card-group.mt-5 {
+  .card-group {
     transform: translateX(14%) skew(0, 2deg);
     -webkit-transform: translateX(14%) skew(0, 2deg);
     -moz-transform: translateX(14%) skew(0, 2deg);
@@ -2381,7 +2381,7 @@ h1 {
   }
 }
 @media (max-width: 412px) {
-  .card-group.mt-5 {
+  .card-group {
     transform: translateX(8%) skew(0, 2deg);
     -webkit-transform: translateX(8%) skew(0, 2deg);
     -moz-transform: translateX(8%) skew(0, 2deg);
@@ -2390,7 +2390,7 @@ h1 {
   }
 }
 @media (max-width: 388px) {
-  .card-group.mt-5 {
+  .card-group {
     transform: translateX(6%) skew(0, 2deg);
     -webkit-transform: translateX(6%) skew(0, 2deg);
     -moz-transform: translateX(6%) skew(0, 2deg);
