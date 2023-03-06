@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- css -->
+ <link rel="stylesheet" href="css/layout/style.css"> 
+ <link rel="stylesheet" href="css/all.min.css">
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/bootstrap.min.css.map">
+ <link href='https://fonts.googleapis.com/css?family=FuturaPT' rel='stylesheet'>
+
+<style>
+  @media (max-width: 767px){
+    .cookies{
+    padding-top: 12px !important;
+  }
+  }
+</style>
+ <!-- font -->
+ <!-- <link rel="stylesheet" href="google_fonts/FuturaPT*.otf"> -->
+ <title>VIENNA</title>
+</head>
+<body style="background-color:#0D0D0D;">
+
+ <section class="d-flex justify-content-center">
+  <div class="container d-flex  text-center pt-0 pb-5">
+   <div class="main-title d-block m-auto">
+    <!-- <img src="img/Group 56@2x.png" style="position: relative; top: 40px; left: 867px; width: 186px; height: 162px;"> -->
+    <img src="img/Group 56@2x.png" style="width: 186px; height: 162px;" class=" position-relative mt-5 mb-5">
+    <p>Welcome! In order to continue your visit on Vienna distribution, you <br>must be of legal drinking age.</p>
+   </div> 
+
+  </div>
+ 
+ </section>
+
+ <div class="age text-uppercase">
+  <div class="container text-center pt-lg-5 pb-5 pt-md-0 pt-sm-0">
+   <h2 class="position-relative fw-bold mb-5">When were you born?</h2>
+
+<!-- <form>
+ <label for="day">يوم</label>
+ <input type="number" id="day" name="day" required>
+ <br>
+ <label for="month">شهر</label>
+ <input type="number" id="month" name="month" required>
+ <br>
+ <label for="year">سنة</label>
+ <input type="number" id="year" name="year" required>
+ <br><br>
+ <button type="submit" class="btn btn-primary">إرسال</button>
+</form> -->
+
+<form>
+ <div class="groub">
+  <div class="form-group up">
+   <label for="day" class="col-sm-2 control-label hide-lable d-lg-block d-md-block d-sm-none">day (dd)</label>
+   <label for="day" class="col-sm-2 control-label show-lable d-lg-none d-md-none d-sm-block">dd</label>
+   <div class="col-sm-10 mobile">
+    <input type="number" class="form-control" id="day" name="day" required>
+   </div>
+  </div>
+  <div class="form-group up">
+   <label for="month" class="col-sm-2 control-label hide-lable d-lg-block d-md-block d-sm-none">MONTH (MM)</label>
+   <label for="month" class="col-sm-2 control-label show-lable d-lg-none d-md-none d-sm-block">MM</label>
+   <div class="col-sm-10 mobile">
+    <input type="number" class="form-control" id="month" name="month" required>
+   </div>
+  </div>
+  <div class="form-group up">
+   <label for="year" class="col-sm-2 control-label hide-lable d-lg-block d-md-block d-sm-none">year (YYY)</label>
+   <label for="year" class="col-sm-2 control-label show-lable d-lg-none d-md-none d-sm-block">YYY</label>
+   <div class="col-sm-10 mobile">
+    <input type="number" class="form-control" id="year" name="year" required>
+   </div>
+  </div>
+ </div>
+ 
+ <div class="form-group form-group-2 pt-5">
+  <div class="col-sm-offset-2 col-sm-10 btn-2">
+   <!-- <button type="submit" class="btn btn-primary">I am of legal drinking age</button> -->
+   <button type="submit" class="btn my-button text-uppercase" style="opacity: 1; color: #FFFFFF; text-align: center; font: normal normal normal 15px/20px Futura PT; letter-spacing: 1.5px;">I am of legal drinking age</button>
+
+  </div>
+ </div>
+</form>
+
+
+<div class="row d-flex justify-content-center pt-5 hide-social">
+   <div class="col-lg-4 text-center" style="margin-top: 100px;">
+     <img src="img/Facebook.png" class="p-1" alt="" srcset="">
+     <img src="img/Instagram.png" class="p-1" alt="" srcset="">
+     <img src="img/Twitter.png" class="p-1" alt="" srcset="">
+   </div>
+ </div>
+
+ <div class="row d-flex pt-4 cookies">
+   <div class="right">
+   <p>We use cookies on our website to give you the most relevant experience. By clicking “Accept”, you consent to the use of ALL cookies. Alternatively, you may click “Cookie Settings” to provide a controlled consent.
+   </div>
+   <div class="left">
+       <!-- <button class="text-uppercase accapt" onclick="hideCookiesDiv()" >Accept</button>
+      <button class="text-uppercase btn-cookie" onclick="hideCookiesDiv()">Cookie settings</button> -->
+<!-- 
+      <button class="text-uppercase accapt" onclick="hideCookiesDiv(this)">Accept</button>
+      <button class="text-uppercase btn-cookie" onclick="hideCookiesDiv(this)">Cookie settings</button> -->
+
+      <button class="text-uppercase accapt" onclick="hideCookiesDiv()">Accept</button>
+      <button class="text-uppercase btn-cookie" onclick="hideCookiesDiv()">Cookie settings</button>
+      
+   </div>
+
+   </div>
+     
+
+   </p>
+ </div>
+
+ </div> <!-- container -->
+ </div> <!-- age -->
+
+ 
+
+
+
+ <!-- js -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+ <script src="js/all.min.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.min.js.map"></script>
+ 
+</body>
+</html>
