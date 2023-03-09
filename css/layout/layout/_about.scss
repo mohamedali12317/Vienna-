@@ -4907,6 +4907,11 @@ img.card-img-top{
 // } // 1272
 
 @media (max-width: 991px) {
+
+  .card-3 .hover-1:hover .right-two{
+    right: -206px;
+  }
+
   .card-3 .pp, .card-3 .more{
     padding: 34px 0 0 61px !important;
   }
@@ -5010,7 +5015,6 @@ img.card-img-top{
 }
 
 @media (max-width: 767px){
-
   .last-none{
     .line{
       &::before{
@@ -5022,18 +5026,18 @@ img.card-img-top{
       } // img
 
       h5{
-        font: normal normal normal 26px/14px Futura PT !important;
+        font:  normal normal normal 24px/24px Futura PT !important;
         margin-bottom: -18px;
 
         &::before{
-          top: 22px;
+          top: 28px;
           width: 29px;
           height: 2px;
         }
       } // h5
 
       .pp{
-        font-size: 16px !important;
+        font-size: 15px !important;
         padding: 50px 0px 0 17px !important;
         font: normal normal normal 18px/21px Futura PT;
         text-transform: none;
@@ -5042,7 +5046,8 @@ img.card-img-top{
 
       .gastronomy {
         padding: 0 9px 6px 0px !important;
-        margin: 0 0 -24px 0;
+        // margin: 0 0 -24px 0;
+        margin: 0 0 -21px 0;
     } // .gastronomy
 
       .markt {
@@ -5063,7 +5068,7 @@ img.card-img-top{
         display: block;
         border-top: 2px solid $gray;
         border-left: 2px solid $gray;
-        bottom: 33px;
+        bottom: 17px;
         right: -124px;
   
         &::after{
@@ -5118,7 +5123,8 @@ img.card-img-top{
       // margin-bottom: -12px;
       // margin-bottom: -13px;
       // margin-bottom: 40px;
-      margin-bottom: -16px;
+      // margin-bottom: 38px;
+      margin-bottom: 35px;
     } // pp
   } // .right-3
 
@@ -5141,15 +5147,15 @@ img.card-img-top{
     .line{
 
       .pp{
-        padding: 50px 0px 0 6px !important;
+        // padding: 50px 0px 0 6px !important;
       } // pp
 
       .party{
-        padding: 0 106px 0 0px !important;
+        padding: 0 75px 0 0px !important;
       } // party
 
       .markt{
-        padding: 0 118px 5px 0px !important;
+        padding: 0 98px 5px 0px !important;
       } // markt
 
     } // .line
@@ -5165,6 +5171,41 @@ img.card-img-top{
   } // .last-none
 } // 555
 
+
+@media (max-width: 519px){
+  .last-none .right-3 .pp{
+    margin-bottom: -14px;
+  }
+}
+
+@media (max-width: 487px){
+  .last-none .line .party{
+    padding:0 115px 0 0px !important;
+  }
+
+  .last-none .line .markt{
+    padding:0 136px 5px 0px !important;
+  }
+
+  .last-none .line .gastronomy{
+    padding:0 31px 6px 0px !important;
+  }
+
+  .last-none .right-2 .more , .last-none .right-3 .more , .last-none .right-1 .more{
+    padding: 0px 0 0 0px !important;
+  }
+
+  .last-none .right-3 .pp{
+    // margin-bottom: 39px;
+    margin-bottom: 37px;
+  }
+  .last-none .line .pp{
+    padding: 37px 0 0 0 !important;
+    font-size: 14px !important;
+    min-width: 100%;
+  }
+} // 487
+
 @media (max-width: 474px){
   .right-1{
     .pp{
@@ -5179,6 +5220,98 @@ img.card-img-top{
     font: normal normal normal 24px/11px Futura PT !important;
   } // h5
 } // 440
+
+@media (max-width: 451px){
+  .last-none .line .pp{
+    padding: 50px 0 0 0 !important;
+  }
+  .last-none .right-3 .pp{
+    margin-bottom: -14px;
+  }
+
+  .last-none .line h5{
+    font: normal normal normal 24px/11px Futura PT !important;
+  } // h5
+} // 451
+
+@media (max-width: 450px){
+  .last-none .line h5::before{
+    top:21px;
+  }
+} // 
+
+@media (max-width: 440px){
+  .last-none .line h5::before{
+    top:21px;
+  }
+} // 440
+
+@media (max-width: 422px){
+  .last-none .line .pp{
+    font-size: 14px !important;
+  }
+  .last-none .line .gastronomy{
+    padding: 0 31px 6px 0px !important;
+  }
+
+  .last-none .line .gastronomy{
+    margin: 0 0 -24px 0 !important;
+  } 
+
+  .last-none .right-1 img{
+    // margin-bottom: -36px;
+    margin-bottom: 27px;
+  }
+
+  .last-none .line h5{
+    font: normal normal normal 24px/11px Futura PT !important;
+  }
+
+  .last-none .right-3 .pp{
+    // margin-bottom: -14px;
+    margin-bottom: -26px;
+  }
+
+  
+  .last-none .right-2 .pp{
+    margin-bottom: -14px;
+  }
+  
+
+  .last-none .right-1 .pp{
+    margin-bottom: -14px;
+  }
+  
+}// 428
+
+@media (max-width: 418px){
+  .last-none .right-3 .pp{
+    margin-bottom: -7px;
+  }
+
+  .last-none .right-1 .pp{
+    margin-bottom: -16px;
+  }
+
+  .last-none .right-2 .pp{
+    margin-bottom: 38px;
+  }
+  
+}
+
+@media (max-width: 410px){
+  .last-none .line .party{
+    margin-bottom: -6px;
+  }  
+  .last-none .right-2 .pp{
+    margin-bottom: -10px;
+  }
+
+  .last-none .right-3 .pp{
+    margin-bottom: -7px;
+  }
+  
+}
 
 @media (max-width: 389px){
   .last-none .line .pp {    
@@ -5196,6 +5329,52 @@ img.card-img-top{
 
 } // 389
 
+@media (max-width: 387px){
+  .last-none .right3 .pp {    
+     padding-top: 37px !important;
+  } // .pp
+
+} // 386
+
+@media (max-width: 384px){
+  .last-none .right3 .pp {    
+    padding-top: 37px !important;
+ } // .pp
+
+
+  .last-none .right-3 .pp{
+    margin-bottom: 37px;
+  }
+
+  .last-none .right-1 img{
+    height: 126px;
+  }
+} // 379
+
+@media (max-width: 360px){
+
+
+} // 379
+
+
+
+@media (max-width: 379px){
+
+  .last-none .right-3 .pp{
+    margin-bottom: 37px;
+  }
+
+  .last-none .right-1 img{
+    height: 126px;
+  }
+} // 379
+
+@media (max-width: 360px){
+  .last-none .right-1 button.more.btn{
+    margin-bottom: 10px;
+  }
+
+} // 379
 
 
 .card-4{
@@ -5206,7 +5385,7 @@ img.card-img-top{
   
     &:hover{
       .arrow{
-        border: 3px #54b3a1 solid;
+        border: 2px #54b3a1 solid;
         height: 92%;
         width: 92%;
       }// arrow
@@ -5427,12 +5606,13 @@ img.card-img-top{
    position: absolute;
    content: "";
    bottom: 21px;
+  //  bottom: 18px;
   //  left: 35px;
   left: 13px;
    //background: $blue;
    width: 28px;
    //height: 3px;
-   border-bottom: 3px #54b3a1 solid;
+   border-bottom: 2px #54b3a1 solid;
    transition: all 0.6s ease-out;
    -webkit-transition: all 0.2s ease-out;
    -moz-transition: all 0.6s ease-out;
@@ -5512,6 +5692,10 @@ img.card-img-top{
 }
   .card-4 .arrow{
     left: 20px;
+  }
+
+  .one-1 .arrow{
+    left: 16px;
   }
 
   .card-4 .five-3{
@@ -5608,15 +5792,34 @@ img.card-img-top{
     
     } //max-width: 1200px
 
+.card-group-owl{
+  .owl-item.cloned.active{
+    margin-top: 4px !important;
+  }
+}
+    
     @media (max-width: 1199px){
       .card-3 .five-3:hover .right{
         right: 25px;
       }
-        
+
+      .card-3 .three-2:hover .right , .card-3 .one-1:hover .right {
+        right: 38px;
+      }
+     
       } //max-width: 1199px
 
       
     @media (max-width: 991px){
+      .card-4 .one-1:hover .arrow , .card-4 .five-3:hover .arrow{
+        width: 90%;
+      }
+
+      .card-4 .arrow{
+        bottom: 14px !important;
+        left: 11px !important;
+        // left: 9px;
+      }
       .card-4{
       
       p{
@@ -5633,12 +5836,377 @@ img.card-img-top{
           display: none;
         }
 
-      .card-4{
-        &:hover{
-          .right{
-            right: 6px !important;
-        }
+
+      .card-4 .one-1:hover .arrow, .card-4 .five-3:hover .arrow , .card-4 .three-2:hover .arrow{
+        border: 1px #54b3a1 solid;
+        height: 0;
+        width: 20px;
       }
+
+      .card-4:hover .right::after{
+        right: -14px;
+        //  width: 22px;
+        width: 24px;
+      }
+      .card-4 .one-1:hover .right{
+        right: 17px !important;
+      }
+              
+      .card-4 .three-2:hover .four{
+        bottom: 3px;
+        left: 12px;
+      }
+      .card-4 .three-2:hover .three{
+        bottom: 27px;
+        left: 12px;
+      }
+
+      .card-4 .five-3:hover .five{
+        bottom: 3px;
+        left: 10px;
+      }
+
+      .once{
+        width: 185px;
+
+        .arrow{
+          // bottom: 22px; // or     bottom: 21px;
+          bottom: 4px;
+          left: 4px;
+          width: 20px;
+          height: 0;
+          border-bottom: 2px $blue solid;
+        } // arrow
+
+        .right{
+          display: block;
+          height: 10px !important;
+          width: 10px !important;
+          border-top: 3px solid $white;
+          border-left: 3px solid $white;
+          bottom: 27px;
+          right: 17px !important;
+
+          &::after{
+            width: 24px;
+            height: 2px;
+            bottom: -4px;
+            right: -14px;
+            background: $white;
+          } // after
+
+        } // right
+
+        
+        .one{
+          bottom: 10px;
+          left: 7px;
+
+          .right{
+            display: block;
+            height: 10px !important;
+            width: 10px !important;
+            border-top: 3px solid $white;
+            border-left: 3px solid $white;
+            bottom: 17px;
+            right: 17px !important; 
+
+            &::after{
+              width: 24px;
+              height: 2px;
+              bottom: -4px;
+              right: -14px;
+              background: $white;
+            } // after
+
+          } // right
+
+        } // one
+        
+
+        .two{
+
+          .right{
+            display: block;
+            height: 10px !important;
+            width: 10px !important;
+            border-top: 3px solid $white;
+            border-left: 3px solid $white;
+            bottom: 3px;
+            left: 11px;
+
+            &::after{
+              width: 24px;
+              height: 2px;
+              bottom: -4px;
+              right: -14px;
+              background: $white;
+            } // after
+
+          } // right
+
+
+        } // two
+
+        .three{
+          bottom: 10px;
+          left: 7px;
+
+          .right{
+            display: block;
+            height: 10px !important;
+            width: 10px !important;
+            border-top: 3px solid $white;
+            border-left: 3px solid $white;
+            bottom: 17px;
+            right: 17px;
+
+            &::after{
+              width: 24px;
+              height: 2px;
+              bottom: -4px;
+              right: -14px;
+              background: $white;
+            } // after
+
+          } // right
+
+
+        } // three
+
+        .four{
+          bottom: -11px;
+          left: 6px;
+
+          .right{
+          display: block;
+          height: 10px !important;
+          width: 10px !important;
+          border-top: 3px solid $white;
+          border-left: 3px solid $white;
+          bottom: 17px;
+          right: 17px;
+
+          &::after{
+            width: 24px;
+            height: 2px;
+            bottom: -4px;
+            right: -14px;
+            background: $white;
+          } // after
+
+        } // right
+
+
+        } // four
+
+        .five{
+          bottom: -11px;
+          left: 6px;
+
+          .right{
+          display: block;
+          height: 10px !important;
+          width: 10px !important;
+          border-top: 3px solid $white;
+          border-left: 3px solid $white;
+          bottom: 17px;
+          right: 17px;
+
+          &::after{
+            width: 24px;
+            height: 2px;
+            bottom: -4px;
+            right: -14px;
+            background: $white;
+          } // after
+
+        } // right
+
+
+        } // five
+  
+       
+
+        &:hover{
+
+          .arrow{
+            // bottom: 22px; // or     bottom: 21px;
+            bottom: 4px;
+            left: 4px;
+            width: 20px;
+            height: 0;
+            border: 1px #54b3a1 solid;
+          } // arrow
+
+          // .right{
+          //   display: block;
+          //   height: 10px !important;
+          //   width: 10px !important;
+          //   border-top: 3px solid $white;
+          //   border-left: 3px solid $white;
+          //   bottom: 17px;
+          //   // right: 15px ;
+          //   right: 24px ;
+
+
+          //   &::after{
+          //     width: 24px;
+          //     height: 2px;
+          //     bottom: -4px;
+          //     right: -14px !important;
+          //   background: $white;
+          //   } // after
+
+          // } // right
+
+        
+
+          img{
+            transform: scale(1);
+          } // img
+
+          .one{
+            bottom: 10px;
+            left: 7px;
+
+            .right{
+              height: 10px !important;
+              width: 10px !important;
+              border-top: 3px solid $white;
+              border-left: 3px solid $white;
+              bottom: 17px;
+              right: 17px !important;
+
+              &::after{
+                width: 24px;
+                height: 2px;
+                bottom: -4px;
+                right: -14px;
+                background: $white;
+              } // after
+
+            } // right
+
+          } // one
+          
+
+          .two{
+            bottom: -11px;
+            left: 6px;
+
+            .right{
+          height: 10px !important;
+          width: 10px !important;
+          border-top: 3px solid $white;
+          border-left: 3px solid $white;
+          bottom: 17px;
+          right: 17px;
+
+          &::after{
+            width: 24px;
+            height: 2px;
+            bottom: -4px;
+            right: -14px;
+            background: $white;
+          } // after
+
+        } // right
+
+
+          } // two
+
+          .three{
+            bottom: 10px;
+            left: 7px;
+
+            .right{
+          display: block;
+          height: 10px !important;
+          width: 10px !important;
+          border-top: 3px solid $white;
+          border-left: 3px solid $white;
+          bottom: 17px;
+          right: 17px;
+
+          &::after{
+            width: 24px;
+            height: 2px;
+            bottom: -4px;
+            right: -14px;
+            background: $white;
+          } // after
+
+        } // right
+
+
+          } // three
+
+          .four{
+            bottom: -11px;
+            left: 6px;
+
+            .right{
+          display: block;
+          height: 10px !important;
+          width: 10px !important;
+          border-top: 3px solid $white;
+          border-left: 3px solid $white;
+          bottom: 17px;
+          right: 17px;
+
+          &::after{
+            width: 24px;
+            height: 2px;
+            bottom: -4px;
+            right: -14px;
+            background: $white;
+          } // after
+
+        } // right
+
+
+          } // four
+
+          .five{
+            bottom: -11px;
+            left: 6px;
+
+            .right{
+          display: block;
+          height: 10px !important;
+          width: 10px !important;
+          border-top: 3px solid $white;
+          border-left: 3px solid $white;
+          bottom: 17px;
+          right: 17px;
+
+          &::after{
+            width: 24px;
+            height: 2px;
+            bottom: -4px;
+            right: -14px;
+            background: $white;
+          } // after
+
+        } // right
+
+
+          } // five
+    
+
+        } // hover
+
+      }
+
+      .card-4 .one-1:hover .two{
+        bottom: 3px !important;
+        left: 11px !important;
+      }
+
+      .card-4 .one-1:hover .one{
+        bottom: 27px;
+        left: 11px;
       }
 
       } // 766px
@@ -5759,8 +6327,8 @@ img.card-img-top{
         @media (max-width: 513px){
             .page{
               // min-height: 696vh;
-              
-             min-height: 701vh !important;
+              min-height: 330vh !important;
+            //  min-height: 701vh !important;
 
             }
 
@@ -6145,7 +6713,8 @@ img.card-img-top{
   .split {
     width: 100%;
     background: #0D0D0D 0% 0% no-repeat padding-box;
-    height: 190px;
+    // height: 190px;
+    height: 121px;
 }
 
 @media (max-width: 513px){
@@ -6160,8 +6729,9 @@ img.card-img-top{
 
   .footer{
     background: $background-footer ;
-    margin-top: 766px;
-    padding: 85px 85px 0px 223px;
+    // margin-top: 766px;
+    margin-top: 693px;
+    padding: 0px 85px 0px 223px;
     transform: translateX(0%) skew(0, -2deg);
 
     a{
@@ -6170,6 +6740,7 @@ img.card-img-top{
       p{
         font: normal normal medium 15px/20px Futura PT;
         // transform: none;
+        transform: rotate(1deg);
       }
     }
 
@@ -6211,7 +6782,7 @@ p{font:  normal normal normal 15px/20px Futura PT}// p
 @media (max-width: 1028px){
  
   .footer{
-    padding: 85px 15px 0px 96px;
+    padding: 0px 15px 0px 96px;
   } // footer
   
   
@@ -6224,7 +6795,7 @@ p{font:  normal normal normal 15px/20px Futura PT}// p
  
       .footer{
         // padding: 85px 3px 0px 48px;
-        padding: 85px 0px 0px 27px;
+        padding: 0px 0px 0px 27px;
         width: 93%;
       } // footer
       
@@ -6235,7 +6806,7 @@ p{font:  normal normal normal 15px/20px Futura PT}// p
  
         .footer{
           // width: 93%;
-          width: 89%;
+          width: 60%;
 
           .col-9{
             padding-left:0;
@@ -6344,7 +6915,8 @@ p{font:  normal normal normal 15px/20px Futura PT}// p
  
             .footer{
               // width: 80%;
-              width: 39% !important;
+              // width: 39% !important;
+              width: 70% !important;
   
               .col-9{
                 padding-left:0;
@@ -6357,7 +6929,11 @@ p{font:  normal normal normal 15px/20px Futura PT}// p
             }
             
             } //max-width: 613px
-
+            @media (max-width: 475px){
+              .footer{
+                width: 80% !important;
+              }
+            }
 
           @media (max-width: 544px){
  
@@ -6390,7 +6966,7 @@ p{font:  normal normal normal 15px/20px Futura PT}// p
               .page{
             
                 // min-height: 674vh;
-                min-height: 660vh !important;
+                // min-height: 660vh !important;
     
               }
               
@@ -6422,7 +6998,8 @@ p{font:  normal normal normal 15px/20px Futura PT}// p
                 } // link-2
     
                 .meaid-2{ 
-                margin: -317px 0 151px 333px;
+                // margin: -317px 0 151px 333px;
+                margin: -273px 0 151px 333px;
                 gap: 23px;
                 } // meaid-2
 
@@ -6439,7 +7016,8 @@ p{font:  normal normal normal 15px/20px Futura PT}// p
               
               @media (max-width: 493px){
                 .page{
-                  min-height:646vh !important;
+                  // min-height:646vh !important;
+                  min-height: 330vh !important;
                 } // all  
               }   // 493
 
@@ -6453,8 +7031,8 @@ p{font:  normal normal normal 15px/20px Futura PT}// p
                   } // link-2
 
                   .meaid-2{ 
-                    margin: -317px 0 151px 294px;
-                  
+                    // margin: -317px 0 151px 294px;
+                    margin: -273px 0 151px 294px;                 
                   } // meaid-2
                 
                   

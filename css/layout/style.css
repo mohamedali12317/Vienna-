@@ -828,6 +828,10 @@ header .navigation .navigation-items .menu:hover:before, .header-black .navigati
     -o-transform: translate(78px, 74px) !important;
   }
 }
+.small .small-box-up {
+  bottom: 18px !important;
+}
+
 .small {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -851,10 +855,11 @@ header .navigation .navigation-items .menu:hover:before, .header-black .navigati
   -o-transform: translate(-10px, 15px);
 }
 .small .small-box-up {
-  bottom: -37px !important;
+  bottom: 18px !important;
 }
 .small .small-box-down {
-  bottom: -677px !important;
+  bottom: -667px !important;
+  height: 4% !important;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -3354,6 +3359,9 @@ button.more.btn:focus {
   }
 }
 @media (max-width: 991px) {
+  .card-3 .hover-1:hover .right-two {
+    right: -206px;
+  }
   .card-3 .pp, .card-3 .more {
     padding: 34px 0 0 61px !important;
   }
@@ -3421,23 +3429,23 @@ button.more.btn:focus {
     width: 180px !important;
   }
   .last-none .line h5 {
-    font: normal normal normal 26px/14px Futura PT !important;
+    font: normal normal normal 24px/24px Futura PT !important;
     margin-bottom: -18px;
   }
   .last-none .line h5::before {
-    top: 22px;
+    top: 28px;
     width: 29px;
     height: 2px;
   }
   .last-none .line .pp {
-    font-size: 16px !important;
+    font-size: 15px !important;
     padding: 50px 0px 0 17px !important;
     font: normal normal normal 18px/21px Futura PT;
     text-transform: none;
   }
   .last-none .line .gastronomy {
     padding: 0 9px 6px 0px !important;
-    margin: 0 0 -24px 0;
+    margin: 0 0 -21px 0;
   }
   .last-none .line .markt {
     padding: 0 93px 5px 0px !important;
@@ -3453,7 +3461,7 @@ button.more.btn:focus {
     display: block;
     border-top: 2px solid #ABABAB;
     border-left: 2px solid #ABABAB;
-    bottom: 33px;
+    bottom: 17px;
     right: -124px;
   }
   .last-none .line .hover-1 .right-two::after {
@@ -3479,7 +3487,7 @@ button.more.btn:focus {
     padding: 0 0 0 13px !important;
   }
   .last-none .right-3 .pp {
-    margin-bottom: -16px;
+    margin-bottom: 35px;
   }
   .last-none .col-4 {
     width: 131.333333%;
@@ -3489,17 +3497,41 @@ button.more.btn:focus {
   }
 }
 @media (max-width: 555px) {
-  .last-none .line .pp {
-    padding: 50px 0px 0 6px !important;
-  }
   .last-none .line .party {
-    padding: 0 106px 0 0px !important;
+    padding: 0 75px 0 0px !important;
   }
   .last-none .line .markt {
-    padding: 0 118px 5px 0px !important;
+    padding: 0 98px 5px 0px !important;
   }
   .last-none .right-3 .pp {
     margin-bottom: 37px;
+  }
+}
+@media (max-width: 519px) {
+  .last-none .right-3 .pp {
+    margin-bottom: -14px;
+  }
+}
+@media (max-width: 487px) {
+  .last-none .line .party {
+    padding: 0 115px 0 0px !important;
+  }
+  .last-none .line .markt {
+    padding: 0 136px 5px 0px !important;
+  }
+  .last-none .line .gastronomy {
+    padding: 0 31px 6px 0px !important;
+  }
+  .last-none .right-2 .more, .last-none .right-3 .more, .last-none .right-1 .more {
+    padding: 0px 0 0 0px !important;
+  }
+  .last-none .right-3 .pp {
+    margin-bottom: 37px;
+  }
+  .last-none .line .pp {
+    padding: 37px 0 0 0 !important;
+    font-size: 14px !important;
+    min-width: 100%;
   }
 }
 @media (max-width: 474px) {
@@ -3510,6 +3542,75 @@ button.more.btn:focus {
 @media (max-width: 440px) {
   .last-none .line h5 {
     font: normal normal normal 24px/11px Futura PT !important;
+  }
+}
+@media (max-width: 451px) {
+  .last-none .line .pp {
+    padding: 50px 0 0 0 !important;
+  }
+  .last-none .right-3 .pp {
+    margin-bottom: -14px;
+  }
+  .last-none .line h5 {
+    font: normal normal normal 24px/11px Futura PT !important;
+  }
+}
+@media (max-width: 450px) {
+  .last-none .line h5::before {
+    top: 21px;
+  }
+}
+@media (max-width: 440px) {
+  .last-none .line h5::before {
+    top: 21px;
+  }
+}
+@media (max-width: 422px) {
+  .last-none .line .pp {
+    font-size: 14px !important;
+  }
+  .last-none .line .gastronomy {
+    padding: 0 31px 6px 0px !important;
+  }
+  .last-none .line .gastronomy {
+    margin: 0 0 -24px 0 !important;
+  }
+  .last-none .right-1 img {
+    margin-bottom: 27px;
+  }
+  .last-none .line h5 {
+    font: normal normal normal 24px/11px Futura PT !important;
+  }
+  .last-none .right-3 .pp {
+    margin-bottom: -26px;
+  }
+  .last-none .right-2 .pp {
+    margin-bottom: -14px;
+  }
+  .last-none .right-1 .pp {
+    margin-bottom: -14px;
+  }
+}
+@media (max-width: 418px) {
+  .last-none .right-3 .pp {
+    margin-bottom: -7px;
+  }
+  .last-none .right-1 .pp {
+    margin-bottom: -16px;
+  }
+  .last-none .right-2 .pp {
+    margin-bottom: 38px;
+  }
+}
+@media (max-width: 410px) {
+  .last-none .line .party {
+    margin-bottom: -6px;
+  }
+  .last-none .right-2 .pp {
+    margin-bottom: -10px;
+  }
+  .last-none .right-3 .pp {
+    margin-bottom: -7px;
   }
 }
 @media (max-width: 389px) {
@@ -3524,13 +3625,42 @@ button.more.btn:focus {
     top: 19px;
   }
 }
+@media (max-width: 387px) {
+  .last-none .right3 .pp {
+    padding-top: 37px !important;
+  }
+}
+@media (max-width: 384px) {
+  .last-none .right3 .pp {
+    padding-top: 37px !important;
+  }
+  .last-none .right-3 .pp {
+    margin-bottom: 37px;
+  }
+  .last-none .right-1 img {
+    height: 126px;
+  }
+}
+@media (max-width: 379px) {
+  .last-none .right-3 .pp {
+    margin-bottom: 37px;
+  }
+  .last-none .right-1 img {
+    height: 126px;
+  }
+}
+@media (max-width: 360px) {
+  .last-none .right-1 button.more.btn {
+    margin-bottom: 10px;
+  }
+}
 .card-4 .one-1 {
   overflow: hidden;
   -webkit-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
 }
 .card-4 .one-1:hover .arrow {
-  border: 3px #54b3a1 solid;
+  border: 2px #54b3a1 solid;
   height: 92%;
   width: 92%;
 }
@@ -3655,7 +3785,7 @@ button.more.btn:focus {
   bottom: 21px;
   left: 13px;
   width: 28px;
-  border-bottom: 3px #54b3a1 solid;
+  border-bottom: 2px #54b3a1 solid;
   -webkit-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
   -webkit-transition: all 0.2s ease-out;
@@ -3724,6 +3854,9 @@ button.more.btn:focus {
   .card-4 .arrow {
     left: 20px;
   }
+  .one-1 .arrow {
+    left: 16px;
+  }
   .card-4 .five-3 {
     width: 405px;
     height: 480px;
@@ -3791,12 +3924,26 @@ button.more.btn:focus {
     height: 3px;
   }
 }
+.card-group-owl .owl-item.cloned.active {
+  margin-top: 4px !important;
+}
+
 @media (max-width: 1199px) {
   .card-3 .five-3:hover .right {
     right: 25px;
   }
+  .card-3 .three-2:hover .right, .card-3 .one-1:hover .right {
+    right: 38px;
+  }
 }
 @media (max-width: 991px) {
+  .card-4 .one-1:hover .arrow, .card-4 .five-3:hover .arrow {
+    width: 90%;
+  }
+  .card-4 .arrow {
+    bottom: 14px !important;
+    left: 11px !important;
+  }
   .card-4 p {
     font-size: 17px !important;
   }
@@ -3805,8 +3952,268 @@ button.more.btn:focus {
   .card-5 .none {
     display: none;
   }
-  .card-4:hover .right {
-    right: 6px !important;
+  .card-4 .one-1:hover .arrow, .card-4 .five-3:hover .arrow, .card-4 .three-2:hover .arrow {
+    border: 1px #54b3a1 solid;
+    height: 0;
+    width: 20px;
+  }
+  .card-4:hover .right::after {
+    right: -14px;
+    width: 24px;
+  }
+  .card-4 .one-1:hover .right {
+    right: 17px !important;
+  }
+  .card-4 .three-2:hover .four {
+    bottom: 3px;
+    left: 12px;
+  }
+  .card-4 .three-2:hover .three {
+    bottom: 27px;
+    left: 12px;
+  }
+  .card-4 .five-3:hover .five {
+    bottom: 3px;
+    left: 10px;
+  }
+  .once {
+    width: 185px;
+  }
+  .once .arrow {
+    bottom: 4px;
+    left: 4px;
+    width: 20px;
+    height: 0;
+    border-bottom: 2px #54b3a1 solid;
+  }
+  .once .right {
+    display: block;
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    bottom: 27px;
+    right: 17px !important;
+  }
+  .once .right::after {
+    width: 24px;
+    height: 2px;
+    bottom: -4px;
+    right: -14px;
+    background: #FFFFFF;
+  }
+  .once .one {
+    bottom: 10px;
+    left: 7px;
+  }
+  .once .one .right {
+    display: block;
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    bottom: 17px;
+    right: 17px !important;
+  }
+  .once .one .right::after {
+    width: 24px;
+    height: 2px;
+    bottom: -4px;
+    right: -14px;
+    background: #FFFFFF;
+  }
+  .once .two .right {
+    display: block;
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    bottom: 3px;
+    left: 11px;
+  }
+  .once .two .right::after {
+    width: 24px;
+    height: 2px;
+    bottom: -4px;
+    right: -14px;
+    background: #FFFFFF;
+  }
+  .once .three {
+    bottom: 10px;
+    left: 7px;
+  }
+  .once .three .right {
+    display: block;
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    bottom: 17px;
+    right: 17px;
+  }
+  .once .three .right::after {
+    width: 24px;
+    height: 2px;
+    bottom: -4px;
+    right: -14px;
+    background: #FFFFFF;
+  }
+  .once .four {
+    bottom: -11px;
+    left: 6px;
+  }
+  .once .four .right {
+    display: block;
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    bottom: 17px;
+    right: 17px;
+  }
+  .once .four .right::after {
+    width: 24px;
+    height: 2px;
+    bottom: -4px;
+    right: -14px;
+    background: #FFFFFF;
+  }
+  .once .five {
+    bottom: -11px;
+    left: 6px;
+  }
+  .once .five .right {
+    display: block;
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    bottom: 17px;
+    right: 17px;
+  }
+  .once .five .right::after {
+    width: 24px;
+    height: 2px;
+    bottom: -4px;
+    right: -14px;
+    background: #FFFFFF;
+  }
+  .once:hover .arrow {
+    bottom: 4px;
+    left: 4px;
+    width: 20px;
+    height: 0;
+    border: 1px #54b3a1 solid;
+  }
+  .once:hover img {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .once:hover .one {
+    bottom: 10px;
+    left: 7px;
+  }
+  .once:hover .one .right {
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    bottom: 17px;
+    right: 17px !important;
+  }
+  .once:hover .one .right::after {
+    width: 24px;
+    height: 2px;
+    bottom: -4px;
+    right: -14px;
+    background: #FFFFFF;
+  }
+  .once:hover .two {
+    bottom: -11px;
+    left: 6px;
+  }
+  .once:hover .two .right {
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    bottom: 17px;
+    right: 17px;
+  }
+  .once:hover .two .right::after {
+    width: 24px;
+    height: 2px;
+    bottom: -4px;
+    right: -14px;
+    background: #FFFFFF;
+  }
+  .once:hover .three {
+    bottom: 10px;
+    left: 7px;
+  }
+  .once:hover .three .right {
+    display: block;
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    bottom: 17px;
+    right: 17px;
+  }
+  .once:hover .three .right::after {
+    width: 24px;
+    height: 2px;
+    bottom: -4px;
+    right: -14px;
+    background: #FFFFFF;
+  }
+  .once:hover .four {
+    bottom: -11px;
+    left: 6px;
+  }
+  .once:hover .four .right {
+    display: block;
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    bottom: 17px;
+    right: 17px;
+  }
+  .once:hover .four .right::after {
+    width: 24px;
+    height: 2px;
+    bottom: -4px;
+    right: -14px;
+    background: #FFFFFF;
+  }
+  .once:hover .five {
+    bottom: -11px;
+    left: 6px;
+  }
+  .once:hover .five .right {
+    display: block;
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    bottom: 17px;
+    right: 17px;
+  }
+  .once:hover .five .right::after {
+    width: 24px;
+    height: 2px;
+    bottom: -4px;
+    right: -14px;
+    background: #FFFFFF;
+  }
+  .card-4 .one-1:hover .two {
+    bottom: 3px !important;
+    left: 11px !important;
+  }
+  .card-4 .one-1:hover .one {
+    bottom: 27px;
+    left: 11px;
   }
 }
 .card-4 .once {
@@ -3875,7 +4282,7 @@ button.more.btn:focus {
 }
 @media (max-width: 513px) {
   .page {
-    min-height: 701vh !important;
+    min-height: 330vh !important;
   }
   .card-4 .once {
     width: 185px;
@@ -4141,7 +4548,7 @@ button.more.btn:focus {
 .split {
   width: 100%;
   background: #0D0D0D 0% 0% no-repeat padding-box;
-  height: 190px;
+  height: 121px;
 }
 
 @media (max-width: 513px) {
@@ -4151,8 +4558,8 @@ button.more.btn:focus {
 }
 .footer {
   background: #000000 0% 0% no-repeat padding-box;
-  margin-top: 766px;
-  padding: 85px 85px 0px 223px;
+  margin-top: 693px;
+  padding: 0px 85px 0px 223px;
   -webkit-transform: translateX(0%) skew(0, -2deg);
           transform: translateX(0%) skew(0, -2deg);
 }
@@ -4162,6 +4569,8 @@ button.more.btn:focus {
 }
 .footer a p {
   font: normal normal medium 15px/20px Futura PT;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
 }
 .footer .col-3 {
   transform: translateX(0%) skew(0, 1deg) !important;
@@ -4191,18 +4600,18 @@ button.more.btn:focus {
 
 @media (max-width: 1028px) {
   .footer {
-    padding: 85px 15px 0px 96px;
+    padding: 0px 15px 0px 96px;
   }
 }
 @media (max-width: 793px) {
   .footer {
-    padding: 85px 0px 0px 27px;
+    padding: 0px 0px 0px 27px;
     width: 93%;
   }
 }
 @media (max-width: 637px) {
   .footer {
-    width: 89%;
+    width: 60%;
   }
   .footer .col-9 {
     padding-left: 0;
@@ -4291,7 +4700,7 @@ button.more.btn:focus {
 }
 @media (max-width: 613px) {
   .footer {
-    width: 39% !important;
+    width: 70% !important;
   }
   .footer .col-9 {
     padding-left: 0;
@@ -4299,6 +4708,11 @@ button.more.btn:focus {
   }
   p {
     font: normal normal normal 15px/17px Futura PT;
+  }
+}
+@media (max-width: 475px) {
+  .footer {
+    width: 80% !important;
   }
 }
 @media (max-width: 544px) {
@@ -4312,11 +4726,6 @@ button.more.btn:focus {
 @media (max-width: 573px) {
   .page {
     min-height: 330vh !important;
-  }
-}
-@media (max-width: 513px) {
-  .page {
-    min-height: 660vh !important;
   }
 }
 @media (max-width: 485px) {
@@ -4341,7 +4750,7 @@ button.more.btn:focus {
     margin: 0 0px 0 10px;
   }
   .footer .meaid-2 {
-    margin: -317px 0 151px 333px;
+    margin: -273px 0 151px 333px;
     gap: 23px;
   }
   .footer .col-9 {
@@ -4350,7 +4759,7 @@ button.more.btn:focus {
 }
 @media (max-width: 493px) {
   .page {
-    min-height: 646vh !important;
+    min-height: 330vh !important;
   }
 }
 @media (max-width: 407px) {
@@ -4358,7 +4767,7 @@ button.more.btn:focus {
     width: 100%;
   }
   .footer .meaid-2 {
-    margin: -317px 0 151px 294px;
+    margin: -273px 0 151px 294px;
   }
 }
 @media (max-width: 373px) {
