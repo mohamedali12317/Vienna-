@@ -3282,7 +3282,7 @@ button.more.btn:focus {
 .cards h5.markt {
   padding: 0 149px 0 0;
 }
-.cards .pp, .cards .more {
+.cards .paragraph, .cards .more {
   transform: translateX(0%) skew(0, 0deg);
   -webkit-transform: translateX(0%) skew(0, 0deg);
   -moz-transform: translateX(0%) skew(0, 0deg);
@@ -3299,7 +3299,7 @@ button.more.btn:focus {
   .line::before {
     left: 53px !important;
   }
-  .pp {
+  .paragraph {
     padding: 50px 0px 0 78px !important;
   }
   .cards .line img {
@@ -3331,7 +3331,7 @@ button.more.btn:focus {
   .cards .hover-1:hover .right-two {
     right: -206px;
   }
-  .cards .pp, .cards .more {
+  .cards .paragraph, .cards .more {
     padding: 34px 0 0 61px !important;
   }
   .cards .right-two {
@@ -3342,7 +3342,7 @@ button.more.btn:focus {
     left: 36px !important;
     height: 417px !important;
   }
-  .pp {
+  .paragraph {
     font-size: 14px !important;
   }
   .cards h5 {
@@ -3406,7 +3406,7 @@ button.more.btn:focus {
     width: 29px;
     height: 2px;
   }
-  .last-none .line .pp {
+  .last-none .line .paragraph {
     font-size: 15px !important;
     padding: 50px 0px 0 17px !important;
     font: normal normal normal 18px/21px Futura PT;
@@ -3455,7 +3455,7 @@ button.more.btn:focus {
   .last-none .right-3 .more {
     padding: 0 0 0 13px !important;
   }
-  .last-none .right-3 .pp {
+  .last-none .right-3 .paragraph {
     margin-bottom: 35px;
   }
   .last-none .col-4 {
@@ -3472,12 +3472,12 @@ button.more.btn:focus {
   .last-none .line .markt {
     padding: 0 98px 5px 0px !important;
   }
-  .last-none .right-3 .pp {
+  .last-none .right-3 .paragraph {
     margin-bottom: 37px;
   }
 }
 @media (max-width: 519px) {
-  .last-none .right-3 .pp {
+  .last-none .right-3 .paragraph {
     margin-bottom: -14px;
   }
 }
@@ -3494,17 +3494,19 @@ button.more.btn:focus {
   .last-none .right-2 .more, .last-none .right-3 .more, .last-none .right-1 .more {
     padding: 0px 0 0 0px !important;
   }
-  .last-none .right-3 .pp {
-    margin-bottom: 37px;
-  }
-  .last-none .line .pp {
+  .last-none .line .paragraph {
     padding: 37px 0 0 0 !important;
     font-size: 14px !important;
     min-width: 100%;
   }
 }
+@media (max-width: 436px) {
+  .last-none .right-1 .paragraph {
+    margin-bottom: 37px;
+  }
+}
 @media (max-width: 474px) {
-  .right-1 .pp {
+  .right-1 .paragraph {
     margin-bottom: 13px;
   }
 }
@@ -3514,10 +3516,10 @@ button.more.btn:focus {
   }
 }
 @media (max-width: 451px) {
-  .last-none .line .pp {
+  .last-none .line .paragraph {
     padding: 50px 0 0 0 !important;
   }
-  .last-none .right-3 .pp {
+  .last-none .right-3 .paragraph {
     margin-bottom: -14px;
   }
   .last-none .line h5 {
@@ -3535,7 +3537,7 @@ button.more.btn:focus {
   }
 }
 @media (max-width: 422px) {
-  .last-none .line .pp {
+  .last-none .line .paragraph {
     font-size: 14px !important;
   }
   .last-none .line .gastronomy {
@@ -3550,24 +3552,24 @@ button.more.btn:focus {
   .last-none .line h5 {
     font: normal normal normal 24px/11px Futura PT !important;
   }
-  .last-none .right-3 .pp {
+  .last-none .right-3 .paragraph {
     margin-bottom: -26px;
   }
-  .last-none .right-2 .pp {
+  .last-none .right-2 .paragraph {
     margin-bottom: -14px;
   }
-  .last-none .right-1 .pp {
+  .last-none .right-1 .paragraph {
     margin-bottom: -14px;
   }
 }
 @media (max-width: 418px) {
-  .last-none .right-3 .pp {
+  .last-none .right-3 .paragraph {
     margin-bottom: -7px;
   }
-  .last-none .right-1 .pp {
+  .last-none .right-1 .paragraph {
     margin-bottom: -16px;
   }
-  .last-none .right-2 .pp {
+  .last-none .right-2 .paragraph {
     margin-bottom: 38px;
   }
 }
@@ -3575,15 +3577,15 @@ button.more.btn:focus {
   .last-none .line .party {
     margin-bottom: -6px;
   }
-  .last-none .right-2 .pp {
+  .last-none .right-2 .paragraph {
     margin-bottom: -10px;
   }
-  .last-none .right-3 .pp {
+  .last-none .right-3 .paragraph {
     margin-bottom: -7px;
   }
 }
 @media (max-width: 389px) {
-  .last-none .line .pp {
+  .last-none .line .paragraph {
     padding: 50px 0px 0 0px !important;
     font-size: 14px !important;
   }
@@ -3595,15 +3597,15 @@ button.more.btn:focus {
   }
 }
 @media (max-width: 387px) {
-  .last-none .right3 .pp {
+  .last-none .right3 .paragraph {
     padding-top: 37px !important;
   }
 }
 @media (max-width: 384px) {
-  .last-none .right3 .pp {
+  .last-none .right3 .paragraph {
     padding-top: 37px !important;
   }
-  .last-none .right-3 .pp {
+  .last-none .right-3 .paragraph {
     margin-bottom: 37px;
   }
   .last-none .right-1 img {
@@ -3611,7 +3613,7 @@ button.more.btn:focus {
   }
 }
 @media (max-width: 379px) {
-  .last-none .right-3 .pp {
+  .last-none .right-3 .paragraph {
     margin-bottom: 37px;
   }
   .last-none .right-1 img {
@@ -4773,6 +4775,9 @@ body section .container p {
   color: #FFFFFF;
   letter-spacing: -0.12px;
   font-size: 1rem;
+}
+body a {
+  outline: none;
 }
 body .age .container h2 {
   color: #FFFFFF;

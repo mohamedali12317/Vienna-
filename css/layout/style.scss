@@ -47,7 +47,9 @@ body{
  
  } // section
  
- 
+ a{
+  outline: none;
+ }
 .age{
  .container{
   
@@ -474,7 +476,7 @@ btn {
 
   .cookies{
     padding-top: 12px !important;
-    padding-bottom: 8px;
+    padding-bottom: 8px;    
     text-transform: none;
     .accapt{
       height: 39px;

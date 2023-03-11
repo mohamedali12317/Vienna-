@@ -1245,7 +1245,7 @@ width: 1919px;
    
 // }
 
-// .pp{
+// .paragraph{
 //  margin: 0 0 56px 0;
 //  background: chocolate;
 //  width: 1;
@@ -4926,7 +4926,7 @@ img.card-img-top{
 
 
 
-  .pp , .more{
+  .paragraph , .more{
     transform: translateX(0%) skew(0, 0deg);
     -webkit-transform: translateX(0%) skew(0, 0deg);
     -moz-transform: translateX(0%) skew(0, 0deg);
@@ -4951,7 +4951,7 @@ img.card-img-top{
     }
   } // line
 
-  .pp{
+  .paragraph{
     padding: 50px 0px 0 78px !important;
   }// pp
 
@@ -5018,7 +5018,7 @@ img.card-img-top{
     right: -206px;
   }
 
-  .cards .pp, .cards .more{
+  .cards .paragraph, .cards .more{
     padding: 34px 0 0 61px !important;
   }
 
@@ -5033,7 +5033,7 @@ img.card-img-top{
     }
   } // line
 
-  .pp{
+  .paragraph{
     // padding: 50px 0px 0 67px !important;
     font-size: 14px !important;
   }// pp
@@ -5142,13 +5142,13 @@ img.card-img-top{
         }
       } // h5
 
-      .pp{
+      .paragraph{
         font-size: 15px !important;
         padding: 50px 0px 0 17px !important;
         font: normal normal normal 18px/21px Futura PT;
         text-transform: none;
         // عايز اقول من البداية ان البرجراف نورمال 
-      } // .pp
+      } // .paragraph
 
       .gastronomy {
         padding: 0 9px 6px 0px !important;
@@ -5225,7 +5225,7 @@ img.card-img-top{
       padding: 0 0 0 13px !important;
     } // .more
     
-    .pp{
+    .paragraph{
       // margin-bottom: -12px;
       // margin-bottom: -13px;
       // margin-bottom: 40px;
@@ -5252,7 +5252,7 @@ img.card-img-top{
 
     .line{
 
-      .pp{
+      .paragraph{
         // padding: 50px 0px 0 6px !important;
       } // pp
 
@@ -5268,7 +5268,7 @@ img.card-img-top{
 
     
     .right-3{
-      .pp{
+      .paragraph{
         margin-bottom: 37px;
       } // pp
       
@@ -5279,7 +5279,7 @@ img.card-img-top{
 
 
 @media (max-width: 519px){
-  .last-none .right-3 .pp{
+  .last-none .right-3 .paragraph{
     margin-bottom: -14px;
   }
 }
@@ -5301,20 +5301,25 @@ img.card-img-top{
     padding: 0px 0 0 0px !important;
   }
 
-  .last-none .right-3 .pp{
+  .last-none .right-3 .paragraph{
     // margin-bottom: 39px;
-    margin-bottom: 37px;
+    // margin-bottom: 37px;
   }
-  .last-none .line .pp{
+  .last-none .line .paragraph{
     padding: 37px 0 0 0 !important;
     font-size: 14px !important;
     min-width: 100%;
   }
 } // 487
 
+@media (max-width: 436px){
+  .last-none .right-1 .paragraph{
+        margin-bottom: 37px;
+  }
+}
 @media (max-width: 474px){
   .right-1{
-    .pp{
+    .paragraph{
       // margin-bottom: -19px;
       margin-bottom: 13px;
     } // pp 
@@ -5328,10 +5333,10 @@ img.card-img-top{
 } // 440
 
 @media (max-width: 451px){
-  .last-none .line .pp{
+  .last-none .line .paragraph{
     padding: 50px 0 0 0 !important;
   }
-  .last-none .right-3 .pp{
+  .last-none .right-3 .paragraph{
     margin-bottom: -14px;
   }
 
@@ -5353,7 +5358,7 @@ img.card-img-top{
 } // 440
 
 @media (max-width: 422px){
-  .last-none .line .pp{
+  .last-none .line .paragraph{
     font-size: 14px !important;
   }
   .last-none .line .gastronomy{
@@ -5373,33 +5378,33 @@ img.card-img-top{
     font: normal normal normal 24px/11px Futura PT !important;
   }
 
-  .last-none .right-3 .pp{
+  .last-none .right-3 .paragraph{
     // margin-bottom: -14px;
     margin-bottom: -26px;
   }
 
   
-  .last-none .right-2 .pp{
+  .last-none .right-2 .paragraph{
     margin-bottom: -14px;
   }
   
 
-  .last-none .right-1 .pp{
+  .last-none .right-1 .paragraph{
     margin-bottom: -14px;
   }
   
 }// 428
 
 @media (max-width: 418px){
-  .last-none .right-3 .pp{
+  .last-none .right-3 .paragraph{
     margin-bottom: -7px;
   }
 
-  .last-none .right-1 .pp{
+  .last-none .right-1 .paragraph{
     margin-bottom: -16px;
   }
 
-  .last-none .right-2 .pp{
+  .last-none .right-2 .paragraph{
     margin-bottom: 38px;
   }
   
@@ -5409,21 +5414,21 @@ img.card-img-top{
   .last-none .line .party{
     margin-bottom: -6px;
   }  
-  .last-none .right-2 .pp{
+  .last-none .right-2 .paragraph{
     margin-bottom: -10px;
   }
 
-  .last-none .right-3 .pp{
+  .last-none .right-3 .paragraph{
     margin-bottom: -7px;
   }
   
 }
 
 @media (max-width: 389px){
-  .last-none .line .pp {    
+  .last-none .line .paragraph {    
      padding: 50px 0px 0 0px !important;
      font-size: 14px !important;
-  } // .pp
+  } // .paragraph
 
   .last-none .line h5{
     font: normal normal normal 21px/11px Futura PT !important;
@@ -5436,19 +5441,19 @@ img.card-img-top{
 } // 389
 
 @media (max-width: 387px){
-  .last-none .right3 .pp {    
+  .last-none .right3 .paragraph {    
      padding-top: 37px !important;
-  } // .pp
+  } // .paragraph
 
 } // 386
 
 @media (max-width: 384px){
-  .last-none .right3 .pp {    
+  .last-none .right3 .paragraph {    
     padding-top: 37px !important;
- } // .pp
+ } // .paragraph
 
 
-  .last-none .right-3 .pp{
+  .last-none .right-3 .paragraph{
     margin-bottom: 37px;
   }
 
@@ -5466,7 +5471,7 @@ img.card-img-top{
 
 @media (max-width: 379px){
 
-  .last-none .right-3 .pp{
+  .last-none .right-3 .paragraph{
     margin-bottom: 37px;
   }
 
