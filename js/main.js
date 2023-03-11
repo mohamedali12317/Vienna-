@@ -1,7 +1,7 @@
-  document.querySelector("form").addEventListener("submit", function(e) {
-   e.preventDefault();
-   checkAge();
- });
+document.getElementById("myForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  checkAge();
+});
 
   function checkAge() {
    var day = document.getElementById("day").value;
@@ -18,10 +18,11 @@
      window.location.href = "home.html";
      }
      }
-     document.querySelector("form").addEventListener("submit", function(e) {
-     e.preventDefault();
-     checkAge();
-     });
+
+    //  document.querySelector("form").addEventListener("submit", function(e) {
+    //  e.preventDefault();
+    //  checkAge();
+    //  });
 
 
 //  اخفى الديف بتاع الفوتر

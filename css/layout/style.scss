@@ -336,7 +336,7 @@ btn {
 .cookies{
   border: 1px solid $white;
   max-width: 100%;
-  padding: 0px 3px 0 16px;
+  padding: 16px 3px 0 16px;
   margin-top: 40px !important;
   justify-content: space-between;
   text-transform: none;
@@ -419,7 +419,6 @@ btn {
   }
 } // 1202
 
-
 @media (max-width: 991px){
   .cookies .right{
     padding: 4px 0 0 0px;
@@ -475,6 +474,7 @@ btn {
 
   .cookies{
     padding-top: 12px !important;
+    padding-bottom: 8px;
     text-transform: none;
     .accapt{
       height: 39px;

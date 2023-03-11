@@ -848,7 +848,6 @@ header .navigation .navigation-items .menu:hover:before, .header-black .navigati
   transform: translate(-10px, 15px);
   position: absolute;
   z-index: 1;
-  background-image: url(img/Group10.png);
   -webkit-transform: translate(-10px, 15px);
   -moz-transform: translate(-10px, 15px);
   -ms-transform: translate(-10px, 15px);
@@ -876,13 +875,6 @@ header .navigation .navigation-items .menu:hover:before, .header-black .navigati
 }
 
 @media (max-width: 1400px) {
-  .title-border-Brand {
-    transform: translate(0px, 3338px) !important;
-    -webkit-transform: translate(0px, 3338px) !important;
-    -moz-transform: translate(0px, 3338px) !important;
-    -ms-transform: translate(0px, 3338px) !important;
-    -o-transform: translate(0px, 3338px) !important;
-  }
   .left-border-product {
     transform: rotate(0deg) translate(131px, 36px) !important;
     -webkit-transform: rotate(0deg) translate(131px, 36px) !important;
@@ -928,11 +920,11 @@ header .navigation .navigation-items .menu:hover:before, .header-black .navigati
 }
 @media (max-width: 1399px) {
   .title-border-Brand {
-    transform: translate(0px, 3257px) !important;
-    -webkit-transform: translate(0px, 3257px) !important;
-    -moz-transform: translate(0px, 3257px) !important;
-    -ms-transform: translate(0px, 3257px) !important;
-    -o-transform: translate(0px, 3257px) !important;
+    transform: translate(0px, 2959px) !important;
+    -webkit-transform: translate(0px, 2959px) !important;
+    -moz-transform: translate(0px, 2959px) !important;
+    -ms-transform: translate(0px, 2959px) !important;
+    -o-transform: translate(0px, 2959px) !important;
   }
 }
 @media (max-width: 1255px) {
@@ -971,12 +963,6 @@ header .navigation .navigation-items .menu:hover:before, .header-black .navigati
             transform: rotate(0deg) translate(-144px, 32px) !important;
   }
 }
-@media (max-width: 1202px) {
-  .title-border-Brand {
-    -webkit-transform: translate(0px, 3187px) !important;
-            transform: translate(0px, 3187px) !important;
-  }
-}
 @media (max-width: 1185px) {
   .right-border-Awesome {
     transform: rotate(0deg) translate(-80px, 32px) !important;
@@ -995,8 +981,11 @@ header .navigation .navigation-items .menu:hover:before, .header-black .navigati
 }
 @media (max-width: 1199px) {
   .title-border-Brand {
-    -webkit-transform: translate(0px, 3083px) !important;
-            transform: translate(0px, 3083px) !important;
+    transform: translate(0px, 2930px) !important;
+    -webkit-transform: translate(0px, 2930px) !important;
+    -moz-transform: translate(0px, 2930px) !important;
+    -ms-transform: translate(0px, 2930px) !important;
+    -o-transform: translate(0px, 2930px) !important;
   }
   .left-border-product {
     transform: rotate(0deg) translate(74px, 35px) !important;
@@ -1051,8 +1040,11 @@ header .navigation .navigation-items .menu:hover:before, .header-black .navigati
     -o-transform: rotate(0deg) translate(-36px, 32px) !important;
   }
   .title-border-Brand {
-    -webkit-transform: translate(0px, 2936px) !important;
-            transform: translate(0px, 2936px) !important;
+    transform: translate(0px, 2799px) !important;
+    -webkit-transform: translate(0px, 2799px) !important;
+    -moz-transform: translate(0px, 2799px) !important;
+    -ms-transform: translate(0px, 2799px) !important;
+    -o-transform: translate(0px, 2799px) !important;
   }
   .title-border .left-border-Brand {
     transform: rotate(0deg) translate(65px, 32px) !important;
@@ -1460,10 +1452,6 @@ header .navigation .navigation-items .menu:hover:before, .header-black .navigati
   -ms-transform: translate(0, 314%);
   -o-transform: translate(0, 314%);
 }
-.main-cup .cup {
-  background: url(img/Path16@2x.png) no-repeat;
-}
-
 @media (max-width: 613px) {
   .main-cup {
     -webkit-transform: translate(0, 318%);
@@ -1685,21 +1673,31 @@ h1 {
   -o-transform: translate(-60px, -56px) rotate(0deg);
 }
 
-.first {
+.mb-11 {
+  margin-bottom: 11px;
+}
+
+.item-proudcts-lg {
+  display: -ms-grid !important;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(289px, 1fr)) !important;
+  gap: 0;
+  margin-left: 57px !important;
+  margin-right: 24px !important;
   -webkit-transform: skew(0, 2deg);
           transform: skew(0, 2deg);
   overflow: hidden;
   margin-top: 436px !important;
 }
-.first p {
+.item-proudcts-lg p {
   font: normal normal 32px/41px Futura PT;
 }
-.first .biger {
+.item-proudcts-lg .biger {
   overflow: hidden;
   -webkit-perspective: 1000px;
           perspective: 1000px;
 }
-.first .biger::before {
+.item-proudcts-lg .biger::before {
   position: absolute;
   content: "";
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0)), to(#0C0C0C));
@@ -1708,12 +1706,12 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.first .overl-lay {
+.item-proudcts-lg .overl-lay {
+  width: 100%;
   overflow: hidden;
-  margin-bottom: 11px;
   cursor: pointer;
 }
-.first .overl-lay:hover p {
+.item-proudcts-lg .overl-lay:hover p {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1723,14 +1721,14 @@ h1 {
   bottom: -14px;
   z-index: 3;
 }
-.first .overl-lay:hover .img-Gin {
+.item-proudcts-lg .overl-lay:hover .img-Gin {
   transform: translate3d(-2px, -6px, 121px);
   -webkit-transform: translate3d(-2px, -6px, 121px);
   -moz-transform: translate3d(-2px, -6px, 121px);
   -ms-transform: translate3d(-2px, -6px, 121px);
   -o-transform: translate3d(-2px, -6px, 121px);
 }
-.first .overl-lay:hover img {
+.item-proudcts-lg .overl-lay:hover img {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1742,31 +1740,33 @@ h1 {
   -ms-transform: translate3d(-2px, -6px, 121px);
   -o-transform: translate3d(-2px, -6px, 121px);
 }
-.first .overl-lay:hover .Vodka {
-  bottom: -14px;
+.item-proudcts-lg .overl-lay:hover .Vodka {
+  bottom: -14px !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.first .overl-lay:hover .Bitter {
-  bottom: -13px;
+.item-proudcts-lg .overl-lay:hover .Bitter {
+  bottom: -13px !important;
 }
-.first .overl-lay:hover .Liquor {
-  bottom: -16px;
+.item-proudcts-lg .overl-lay:hover .Liquor {
+  bottom: -16px !important;
 }
-.first .overl-lay:hover .baiju {
-  bottom: 3px;
+.item-proudcts-lg .overl-lay:hover .baiju {
+  bottom: 3px !important;
 }
-.first .overl-lay:hover .Rum {
-  bottom: 3px;
+.item-proudcts-lg .overl-lay:hover .Rum {
+  bottom: 3px !important;
 }
-.first .overl-lay:hover .Whiskey {
-  bottom: 3px;
+.item-proudcts-lg .overl-lay:hover .Whiskey {
+  bottom: 3px !important;
 }
-.first .overl-lay:hover .Gin {
-  bottom: 3px;
+.item-proudcts-lg .overl-lay:hover .Gin {
+  bottom: 3px !important;
 }
-.first .overl-lay:hover .biger {
+.item-proudcts-lg .overl-lay:hover .biger {
   overflow: hidden;
 }
-.first .overl-lay:hover .biger::after {
+.item-proudcts-lg .overl-lay:hover .biger::after {
   position: absolute;
   content: "";
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0)), to(#0C0C0C));
@@ -1778,37 +1778,48 @@ h1 {
   height: 100%;
   z-index: 2;
 }
-.first .over-lay-biger {
-  width: 100%;
-}
-.first .over-lay-biger::before {
+.item-proudcts-lg .over-lay-biger::before {
   width: 388%;
 }
-.first .baiju {
+.item-proudcts-lg .baiju {
   left: 53px;
   bottom: -8px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.first .Rum {
+.item-proudcts-lg .Rum {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   left: 44px;
   bottom: -8px;
 }
-.first .Whiskey {
+.item-proudcts-lg .Whiskey {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   left: 41px;
   bottom: -8px;
 }
-.first .Gin {
+.item-proudcts-lg .Gin {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   left: 53px;
   bottom: -8px;
 }
-.first .Vodka {
+.item-proudcts-lg .Vodka {
   bottom: -24px;
   left: 48px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.first .Liquor {
+.item-proudcts-lg .Liquor {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   left: 40px;
   bottom: -24px;
 }
-.first .Bitter {
+.item-proudcts-lg .Bitter {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   left: 29px;
   bottom: -24px;
 }
@@ -1847,116 +1858,101 @@ h1 {
   }
 }
 @media (max-width: 1400px) {
-  .first {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    max-width: 1220px;
+  .item-proudcts-lg {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    gap: 7px 1px;
   }
-  .last {
-    padding: 0 0 0 0px !important;
+}
+@media (max-width: 1399px) {
+  .item-proudcts-lg {
+    grid-template-columns: repeat(auto-fill, minmax(246px, 1fr)) !important;
   }
-  .Vodka {
-    bottom: -6px !important;
+}
+@media (min-width: 1297px) {
+  .item-proudcts-lg .overl-lay:hover .Liquor, .item-proudcts-lg .overl-lay:hover .Vodka {
+    bottom: -12px !important;
   }
-  .Liquor {
-    bottom: -6px !important;
+}
+@media (max-width: 1296px) {
+  .item-proudcts-lg .overl-lay:hover .Liquor, .item-proudcts-lg .overl-lay:hover .Vodka {
+    bottom: 2px;
+  }
+}
+@media (min-width: 1203px) {
+  .item-proudcts-lg .overl-lay:hover .Liquor, .item-proudcts-lg .overl-lay:hover .Vodka {
+    bottom: -13px;
   }
 }
 @media (max-width: 1202px) {
-  .first {
-    gap: 9px 1px !important;
-    padding: 0 32px 0 92px;
+  .item-proudcts-lg {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .first .Vodka {
-    bottom: -6px !important;
+  .item-proudcts-lg .overl-lay:hover .Vodka, .item-proudcts-lg .overl-lay:hover .Liquor {
+    bottom: -13px;
   }
-  .first .Liquor {
-    bottom: -6px !important;
-  }
-  .first .overl-lay:hover .Vodka, .first .overl-lay:hover .Liquor {
-    bottom: 2px !important;
-  }
-  .first p {
+  .item-proudcts-lg p {
     left: 39px !important;
-  }
-  .first .over-lay-biger {
-    width: 25%;
-  }
-  .last {
-    width: 93% !important;
   }
 }
 @media (max-width: 1200px) {
-  .first p {
+  .item-proudcts-lg p {
     font: normal normal 29px/41px Futura PT;
   }
-  .first .Vodka {
+  .item-proudcts-lg .Vodka {
     left: 36px !important;
   }
 }
 @media (max-width: 1199px) {
-  .first {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .item-proudcts-lg {
+    grid-template-columns: repeat(auto-fill, minmax(199px, 1fr)) !important;
   }
-  .first p {
+  .item-proudcts-lg p {
     font: normal normal 20px/41px Futura PT !important;
     left: 26px !important;
   }
-  .first .Vodka {
+  .item-proudcts-lg .baiju, .item-proudcts-lg .Gin, .item-proudcts-lg .Rum, .item-proudcts-lg .Whiskey {
+    bottom: -13px !important;
+  }
+  .item-proudcts-lg .overl-lay:hover .baiju, .item-proudcts-lg .overl-lay:hover .Rum, .item-proudcts-lg .overl-lay:hover .Gin, .item-proudcts-lg .overl-lay:hover .Whiskey {
+    bottom: 0px !important;
+  }
+  .item-proudcts-lg .Vodka, .item-proudcts-lg .Liquor, .item-proudcts-lg .Bitter {
     left: 26px !important;
+    bottom: -29px !important;
   }
-  .first .overl-lay:hover .Bitter {
-    bottom: -17px;
-  }
-  .last {
-    padding: 0 0 0 9px !important;
-  }
-}
-@media (max-width: 1045px) {
-  .first {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    gap: 7px;
-    -ms-flex-wrap: wrap !important;
-        flex-wrap: wrap !important;
-  }
-  .last {
-    padding: 0 0 0 31px !important;
+  .item-proudcts-lg .overl-lay:hover .Bitter {
+    bottom: -16px !important;
   }
 }
 @media (max-width: 991px) {
-  .first .baiju, .first .Rum, .first .Whiskey, .first .Gin, .first .Vodka, .first .Liquor {
-    bottom: -29px !important;
+  .mb-0-md {
+    margin-bottom: 0 !important;
   }
-  .first .overl-lay:hover .baiju, .first .overl-lay:hover .Rum, .first .overl-lay:hover .Whiskey, .first .overl-lay:hover .Gin, .first .overl-lay:hover .Vodka, .first .overl-lay:hover .Liquor {
-    bottom: -20px !important;
+  .item-proudcts-lg {
+    grid-template-columns: repeat(auto-fill, minmax(141px, 1fr)) !important;
   }
-  .first .overl-lay {
-    width: 30%;
-    transform: translateX(-32px);
-    -webkit-transform: translateX(-32px);
-    -moz-transform: translateX(-32px);
-    -ms-transform: translateX(-32px);
-    -o-transform: translateX(-32px);
+  .item-proudcts-lg .baiju, .item-proudcts-lg .Rum, .item-proudcts-lg .Whiskey, .item-proudcts-lg .Gin, .item-proudcts-lg .Vodka, .item-proudcts-lg .Liquor {
+    bottom: -21px !important;
   }
-  .first .over-lay-biger {
-    transform: translateX(-58px);
-    -webkit-transform: translateX(-58px);
-    -moz-transform: translateX(-58px);
-    -ms-transform: translateX(-58px);
-    -o-transform: translateX(-58px);
+  .item-proudcts-lg .overl-lay:hover .baiju, .item-proudcts-lg .overl-lay:hover .Rum, .item-proudcts-lg .overl-lay:hover .Whiskey, .item-proudcts-lg .overl-lay:hover .Gin, .item-proudcts-lg .overl-lay:hover .Vodka, .item-proudcts-lg .overl-lay:hover .Liquor {
+    bottom: -13px !important;
   }
-  .first .overl-lay:hover img, .first .overl-lay:hover .img-Gin {
+  .item-proudcts-lg .overl-lay:hover .Bitter {
+    bottom: -24px !important;
+  }
+  .item-proudcts-lg .overl-lay {
+    padding: 7px;
+  }
+  .last.d-flex.justify-content-start {
+    padding: 9px !important;
+  }
+  .item-proudcts-lg .over-lay-biger {
+    padding: 0;
+  }
+  .item-proudcts-lg .overl-lay:hover img, .item-proudcts-lg .overl-lay:hover .img-Gin {
     transform: translate3d(0px, 0px, 107px);
     -webkit-transform: translate3d(0px, 0px, 107px);
     -moz-transform: translate3d(0px, 0px, 107px);
@@ -1965,7 +1961,7 @@ h1 {
   }
 }
 @media (max-width: 577px) {
-  .first {
+  .item-proudcts-lg {
     display: none !important;
   }
   .item-proudcts-owl {
@@ -2033,61 +2029,52 @@ h1 {
   -o-transform: none;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1399px) {
   .book {
-    transform: translate(0px, 1977px) !important;
-    -webkit-transform: translate(0px, 1977px) !important;
-    -moz-transform: translate(0px, 1977px) !important;
-    -ms-transform: translate(0px, 1977px) !important;
-    -o-transform: translate(0px, 1977px) !important;
+    transform: translate(0px, 1708px) !important;
+    -webkit-transform: translate(0px, 1708px) !important;
+    -moz-transform: translate(0px, 1708px) !important;
+    -ms-transform: translate(0px, 1708px) !important;
+    -o-transform: translate(0px, 1708px) !important;
   }
   .border-Awesome {
-    transform: translate(0px, 1956px) !important;
-    -webkit-transform: translate(0px, 1956px) !important;
-    -moz-transform: translate(0px, 1956px) !important;
-    -ms-transform: translate(0px, 1956px) !important;
-    -o-transform: translate(0px, 1956px) !important;
-  }
-}
-@media (max-width: 1202px) {
-  .book {
-    transform: translate(0px, 1860px) !important;
-    -webkit-transform: translate(0px, 1860px) !important;
-    -moz-transform: translate(0px, 1860px) !important;
-    -ms-transform: translate(0px, 1860px) !important;
-    -o-transform: translate(0px, 1860px) !important;
-  }
-  .border-Awesome {
-    transform: translate(0px, 1823px) !important;
-    -webkit-transform: translate(0px, 1823px) !important;
-    -moz-transform: translate(0px, 1823px) !important;
-    -ms-transform: translate(0px, 1823px) !important;
-    -o-transform: translate(0px, 1823px) !important;
+    transform: translate(0px, 1685px) !important;
+    -webkit-transform: translate(0px, 1685px) !important;
+    -moz-transform: translate(0px, 1685px) !important;
+    -ms-transform: translate(0px, 1685px) !important;
+    -o-transform: translate(0px, 1685px) !important;
   }
 }
 @media (max-width: 1199px) {
   .book {
-    transform: translate(0px, 1783px) !important;
-    -webkit-transform: translate(0px, 1783px) !important;
-    -moz-transform: translate(0px, 1783px) !important;
-    -ms-transform: translate(0px, 1783px) !important;
-    -o-transform: translate(0px, 1783px) !important;
+    transform: translate(0px, 1633px) !important;
+    -webkit-transform: translate(0px, 1633px) !important;
+    -moz-transform: translate(0px, 1633px) !important;
+    -ms-transform: translate(0px, 1633px) !important;
+    -o-transform: translate(0px, 1633px) !important;
+  }
+  .border-Awesome {
+    transform: translate(0px, 1620px) !important;
+    -webkit-transform: translate(0px, 1620px) !important;
+    -moz-transform: translate(0px, 1620px) !important;
+    -ms-transform: translate(0px, 1620px) !important;
+    -o-transform: translate(0px, 1620px) !important;
   }
 }
 @media (max-width: 991px) {
   .book {
-    transform: translate(0px, 1696px) !important;
-    -webkit-transform: translate(0px, 1696px) !important;
-    -moz-transform: translate(0px, 1696px) !important;
-    -ms-transform: translate(0px, 1696px) !important;
-    -o-transform: translate(0px, 1696px) !important;
+    transform: translate(0px, 1565px) !important;
+    -webkit-transform: translate(0px, 1565px) !important;
+    -moz-transform: translate(0px, 1565px) !important;
+    -ms-transform: translate(0px, 1565px) !important;
+    -o-transform: translate(0px, 1565px) !important;
   }
   .border-Awesome {
-    transform: translate(0px, 1668px) !important;
-    -webkit-transform: translate(0px, 1668px) !important;
-    -moz-transform: translate(0px, 1668px) !important;
-    -ms-transform: translate(0px, 1668px) !important;
-    -o-transform: translate(0px, 1668px) !important;
+    transform: translate(0px, 1568px) !important;
+    -webkit-transform: translate(0px, 1568px) !important;
+    -moz-transform: translate(0px, 1568px) !important;
+    -ms-transform: translate(0px, 1568px) !important;
+    -o-transform: translate(0px, 1568px) !important;
   }
 }
 @media (max-width: 767px) {
@@ -2730,40 +2717,22 @@ button.more.btn:focus {
   left: -1px;
 }
 
-@media (max-width: 1400px) {
-  .change-text {
-    transform: translate(0px, 2890px);
-    -webkit-transform: translate(0px, 2890px);
-    -moz-transform: translate(0px, 2890px);
-    -ms-transform: translate(0px, 2890px);
-    -o-transform: translate(0px, 2890px);
-  }
-  .blue-box-middle {
-    margin-top: 225px !important;
-  }
-}
 @media (max-width: 1399px) {
   .change-text {
-    -webkit-transform: translate(0px, 2781px);
-            transform: translate(0px, 2781px);
-  }
-}
-@media (max-width: 1202px) {
-  .change-text {
-    transform: translate(0px, 2710px);
-    -webkit-transform: translate(0px, 2710px);
-    -moz-transform: translate(0px, 2710px);
-    -ms-transform: translate(0px, 2710px);
-    -o-transform: translate(0px, 2710px);
+    transform: translate(0px, 2511px);
+    -webkit-transform: translate(0px, 2511px);
+    -moz-transform: translate(0px, 2511px);
+    -ms-transform: translate(0px, 2511px);
+    -o-transform: translate(0px, 2511px);
   }
 }
 @media (max-width: 1199px) {
   .change-text {
-    transform: translate(0px, 2624px);
-    -webkit-transform: translate(0px, 2624px);
-    -moz-transform: translate(0px, 2624px);
-    -ms-transform: translate(0px, 2624px);
-    -o-transform: translate(0px, 2624px);
+    transform: translate(0px, 2462px);
+    -webkit-transform: translate(0px, 2462px);
+    -moz-transform: translate(0px, 2462px);
+    -ms-transform: translate(0px, 2462px);
+    -o-transform: translate(0px, 2462px);
   }
   .blue-box-middle {
     margin-top: 226px !important;
@@ -2771,11 +2740,11 @@ button.more.btn:focus {
 }
 @media (max-width: 991px) {
   .change-text {
-    transform: translate(0px, 2473px);
-    -webkit-transform: translate(0px, 2473px);
-    -moz-transform: translate(0px, 2473px);
-    -ms-transform: translate(0px, 2473px);
-    -o-transform: translate(0px, 2473px);
+    transform: translate(0px, 2343px);
+    -webkit-transform: translate(0px, 2343px);
+    -moz-transform: translate(0px, 2343px);
+    -ms-transform: translate(0px, 2343px);
+    -o-transform: translate(0px, 2343px);
   }
 }
 @media (max-width: 767px) {
@@ -3219,14 +3188,14 @@ button.more.btn:focus {
     font: normal normal normal 38px/43px Futura PT;
   }
 }
-.card-3 {
+.cards {
   -webkit-transform: translateX(0%) skew(0, 2deg);
           transform: translateX(0%) skew(0, 2deg);
 }
-.card-3 .line {
+.cards .line {
   position: relative;
 }
-.card-3 .line::before {
+.cards .line::before {
   top: 0px;
   left: 64px;
   width: 3px;
@@ -3235,7 +3204,7 @@ button.more.btn:focus {
   position: absolute;
   content: "";
 }
-.card-3 .right-two {
+.cards .right-two {
   -webkit-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
   position: relative;
@@ -3252,7 +3221,7 @@ button.more.btn:focus {
   -ms-transform: rotate(131deg);
   -o-transform: rotate(131deg);
 }
-.card-3 .right-two::after {
+.cards .right-two::after {
   -webkit-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
   position: absolute;
@@ -3265,28 +3234,28 @@ button.more.btn:focus {
   -webkit-transform: rotate(48deg);
           transform: rotate(48deg);
 }
-.card-3 .more {
+.cards .more {
   padding: 0 0 0 82px !important;
   margin-top: 31px;
 }
-.card-3 .hover-1 {
+.cards .hover-1 {
   position: relative;
   -webkit-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
   height: 4%;
 }
-.card-3 .hover-1:hover .more {
+.cards .hover-1:hover .more {
   color: #54b3a1;
 }
-.card-3 .hover-1:hover .right-two {
+.cards .hover-1:hover .right-two {
   border-top: 3px solid #54b3a1;
   border-left: 3px solid #54b3a1;
   right: -248px;
 }
-.card-3 .hover-1:hover .right-two::after {
+.cards .hover-1:hover .right-two::after {
   background: #54b3a1;
 }
-.card-3 h5 {
+.cards h5 {
   font: normal normal normal 32px/24px Futura PT;
   letter-spacing: 0px;
   color: #FFFFFF;
@@ -3294,7 +3263,7 @@ button.more.btn:focus {
   margin-top: 50px;
   position: relative;
 }
-.card-3 h5::before {
+.cards h5::before {
   top: 29px;
   width: 40px;
   height: 3px;
@@ -3302,18 +3271,18 @@ button.more.btn:focus {
   position: absolute;
   content: "";
 }
-.card-3 h5.gastronomy {
+.cards h5.gastronomy {
   padding: 0 23px 0 0;
   margin-top: 58px;
 }
-.card-3 h5.party {
+.cards h5.party {
   margin-top: 27px;
   padding: 0 139px 0 0;
 }
-.card-3 h5.markt {
+.cards h5.markt {
   padding: 0 149px 0 0;
 }
-.card-3 .pp, .card-3 .more {
+.cards .pp, .cards .more {
   transform: translateX(0%) skew(0, 0deg);
   -webkit-transform: translateX(0%) skew(0, 0deg);
   -moz-transform: translateX(0%) skew(0, 0deg);
@@ -3333,7 +3302,7 @@ button.more.btn:focus {
   .pp {
     padding: 50px 0px 0 78px !important;
   }
-  .card-3 .line img {
+  .cards .line img {
     width: 155px;
   }
   .party {
@@ -3359,13 +3328,13 @@ button.more.btn:focus {
   }
 }
 @media (max-width: 991px) {
-  .card-3 .hover-1:hover .right-two {
+  .cards .hover-1:hover .right-two {
     right: -206px;
   }
-  .card-3 .pp, .card-3 .more {
+  .cards .pp, .cards .more {
     padding: 34px 0 0 61px !important;
   }
-  .card-3 .right-two {
+  .cards .right-two {
     bottom: 15px;
     right: -190px;
   }
@@ -3376,18 +3345,18 @@ button.more.btn:focus {
   .pp {
     font-size: 14px !important;
   }
-  .card-3 h5 {
+  .cards h5 {
     font: normal normal normal 29px/14px Futura PT !important;
   }
-  .card-3 .line img {
+  .cards .line img {
     width: 150px;
     padding: 0 0 0 38px;
   }
-  .card-3 .more {
+  .cards .more {
     font: normal normal normal 18px/21px Futura PT;
     padding: 0 0 0 64px !important;
   }
-  .card-3 .right-3 .more {
+  .cards .right-3 .more {
     padding: 0px 0 0 64px !important;
   }
   .right-1 img {
@@ -3406,7 +3375,7 @@ button.more.btn:focus {
   }
 }
 @media (min-width: 992px) {
-  .card-3 h5::before {
+  .cards h5::before {
     top: 36px;
   }
 }
@@ -3417,7 +3386,7 @@ button.more.btn:focus {
   .owl-stage-outer {
     display: none;
   }
-  .card-3.card-4.text-center.d-flex.mt-5.text-uppercase.fw-bold.owl-carousel.heght-slide.owl-theme.last-none.owl-loaded.owl-drag {
+  .cards.card-wrapper.text-center.d-flex.mt-5.text-uppercase.fw-bold.owl-carousel.heght-slide.owl-theme.last-none.owl-loaded.owl-drag {
     height: 0px;
   }
 }
@@ -3654,36 +3623,36 @@ button.more.btn:focus {
     margin-bottom: 10px;
   }
 }
-.card-4 .one-1 {
+.card-wrapper .one-1 {
   overflow: hidden;
   -webkit-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
 }
-.card-4 .one-1:hover .arrow {
+.card-wrapper .one-1:hover .arrow {
   border: 2px #54b3a1 solid;
   height: 92%;
   width: 92%;
 }
-.card-4 .one-1:hover img {
+.card-wrapper .one-1:hover img {
   transform: translate3d(0, 0px, 80px);
   -webkit-transform: translate3d(0, 0px, 80px);
   -moz-transform: translate3d(0, 0px, 80px);
   -ms-transform: translate3d(0, 0px, 80px);
   -o-transform: translate3d(0, 0px, 80px);
 }
-.card-4 .one-1:hover .one {
+.card-wrapper .one-1:hover .one {
   bottom: 37px;
   left: 35px;
 }
-.card-4 .one-1:hover .two {
+.card-wrapper .one-1:hover .two {
   bottom: 9px;
   left: 35px;
 }
-.card-4 .one-1:hover .right {
+.card-wrapper .one-1:hover .right {
   right: 54px;
   display: block;
 }
-.card-4 .one-1 .one {
+.card-wrapper .one-1 .one {
   left: 0;
   font-weight: bold;
   bottom: 27px;
@@ -3692,7 +3661,7 @@ button.more.btn:focus {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.card-4 .two {
+.card-wrapper .two {
   left: 0;
   font-weight: bold;
   bottom: 3px;
@@ -3702,84 +3671,84 @@ button.more.btn:focus {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.card-4 .three-2 {
+.card-wrapper .three-2 {
   overflow: hidden;
 }
-.card-4 .three-2:hover .arrow {
+.card-wrapper .three-2:hover .arrow {
   border: 3px #54b3a1 solid;
   height: 92%;
   width: 92%;
 }
-.card-4 .three-2:hover img {
+.card-wrapper .three-2:hover img {
   transform: translate3d(0, 0px, 80px);
   -webkit-transform: translate3d(0, 0px, 80px);
   -moz-transform: translate3d(0, 0px, 80px);
   -ms-transform: translate3d(0, 0px, 80px);
   -o-transform: translate3d(0, 0px, 80px);
 }
-.card-4 .three-2:hover .three {
+.card-wrapper .three-2:hover .three {
   bottom: 37px;
   left: 33px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.card-4 .three-2:hover .four {
+.card-wrapper .three-2:hover .four {
   bottom: 9px;
   left: 33px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.card-4 .three-2:hover .right {
+.card-wrapper .three-2:hover .right {
   right: 54px;
   display: block;
 }
-.card-4 .three-2 .three {
+.card-wrapper .three-2 .three {
   left: 0;
   font-weight: bold;
   bottom: 27px;
   left: 12px;
   font-size: 33px;
 }
-.card-4 .three-2 .four {
+.card-wrapper .three-2 .four {
   left: 0;
   font-weight: bold;
   bottom: 3px;
   left: 12px;
   font-size: 27px;
 }
-.card-4 .five-3 {
+.card-wrapper .five-3 {
   overflow: hidden;
 }
-.card-4 .five-3:hover .arrow {
+.card-wrapper .five-3:hover .arrow {
   border: 3px #54b3a1 solid;
   height: 92%;
   width: 93%;
 }
-.card-4 .five-3:hover img {
+.card-wrapper .five-3:hover img {
   transform: translate3d(0, 0px, 80px);
   -webkit-transform: translate3d(0, 0px, 80px);
   -moz-transform: translate3d(0, 0px, 80px);
   -ms-transform: translate3d(0, 0px, 80px);
   -o-transform: translate3d(0, 0px, 80px);
 }
-.card-4 .five-3:hover .five {
+.card-wrapper .five-3:hover .five {
   bottom: 9px;
   left: 33px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.card-4 .five-3:hover .right {
+.card-wrapper .five-3:hover .right {
   right: 54px;
   display: block;
 }
-.card-4 .five-3 .five {
+.card-wrapper .five-3 .five {
   left: 0;
   font-weight: bold;
   bottom: 3px;
   left: 10px;
   font-size: 27px;
 }
-.card-4 .arrow {
+.card-wrapper .arrow {
   position: absolute;
   content: "";
   bottom: 21px;
@@ -3793,7 +3762,7 @@ button.more.btn:focus {
   -ms-transition: all 0.6s ease-out;
   -o-transition: all 0.6s ease-out;
 }
-.card-4 .right {
+.card-wrapper .right {
   display: none;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -3810,7 +3779,7 @@ button.more.btn:focus {
   -ms-transform: rotate(131deg);
   -o-transform: rotate(131deg);
 }
-.card-4 .right::after {
+.card-wrapper .right::after {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   position: absolute;
@@ -3824,88 +3793,88 @@ button.more.btn:focus {
           transform: rotate(48deg);
 }
 
-.card-5 .img {
+.cards-lg .img {
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
-.card-5 .zoom-img {
+.cards-lg .zoom-img {
   -webkit-perspective: 1000px;
           perspective: 1000px;
   overflow: hidden;
 }
 
 @media (min-width: 1400px) {
-  .card-5 .img {
+  .cards-lg .img {
     width: 405px;
   }
-  .card-4 .five-3 .five {
+  .card-wrapper .five-3 .five {
     left: 25px;
   }
-  .card-4 .five-3:hover img {
+  .card-wrapper .five-3:hover img {
     transform: translate3d(0px, 0px, 40px);
     -webkit-transform: translate3d(0px, 0px, 40px);
     -moz-transform: translate3d(0px, 0px, 40px);
     -ms-transform: translate3d(0px, 0px, 40px);
     -o-transform: translate3d(0px, 0px, 40px);
   }
-  .card-4 .arrow {
+  .card-wrapper .arrow {
     left: 20px;
   }
   .one-1 .arrow {
     left: 16px;
   }
-  .card-4 .five-3 {
+  .card-wrapper .five-3 {
     width: 405px;
     height: 480px;
   }
-  .card-4 .five-3 .five {
+  .card-wrapper .five-3 .five {
     left: 17px;
   }
-  .card-4 .three-2 {
+  .card-wrapper .three-2 {
     margin-right: 33px;
     width: 405px;
     height: 480px;
   }
-  .card-4 .five-3:hover .arrow {
+  .card-wrapper .five-3:hover .arrow {
     width: 91%;
   }
-  .card-4 .three-2:hover img {
+  .card-wrapper .three-2:hover img {
     transform: translate3d(0, 0px, 40px);
     -webkit-transform: translate3d(0, 0px, 40px);
     -moz-transform: translate3d(0, 0px, 40px);
     -ms-transform: translate3d(0, 0px, 40px);
     -o-transform: translate3d(0, 0px, 40px);
   }
-  .card-4 .three-2 .four {
+  .card-wrapper .three-2 .four {
     left: 18px;
   }
-  .card-4 .three-2 .three {
+  .card-wrapper .three-2 .three {
     left: 18px;
   }
-  .card-4 .one-1 {
+  .card-wrapper .one-1 {
     margin-right: 33px;
     width: 405px;
     height: 480px;
   }
-  .card-4 .one-1:hover img {
+  .card-wrapper .one-1:hover img {
     transform: translate3d(0, 0px, 40px);
     -webkit-transform: translate3d(0, 0px, 40px);
     -moz-transform: translate3d(0, 0px, 40px);
     -ms-transform: translate3d(0, 0px, 40px);
     -o-transform: translate3d(0, 0px, 40px);
   }
-  .card-4 .two {
+  .card-wrapper .two {
     left: 16px;
   }
-  .card-4 .one-1 .one {
+  .card-wrapper .one-1 .one {
     left: 16px;
   }
 }
 @media (max-width: 1399px) {
-  .card-4 {
+  .card-wrapper {
     gap: 15px;
   }
   img {
@@ -3913,12 +3882,12 @@ button.more.btn:focus {
   }
 }
 @media (max-width: 1200px) {
-  .card-4:hover .right {
+  .card-wrapper:hover .right {
     right: 32px;
     width: 10px;
     height: 10px;
   }
-  .card-4:hover .right::after {
+  .card-wrapper:hover .right::after {
     right: -12px;
     width: 22px;
     height: 3px;
@@ -3929,50 +3898,50 @@ button.more.btn:focus {
 }
 
 @media (max-width: 1199px) {
-  .card-3 .five-3:hover .right {
+  .cards .five-3:hover .right {
     right: 25px;
   }
-  .card-3 .three-2:hover .right, .card-3 .one-1:hover .right {
+  .cards .three-2:hover .right, .cards .one-1:hover .right {
     right: 38px;
   }
 }
 @media (max-width: 991px) {
-  .card-4 .one-1:hover .arrow, .card-4 .five-3:hover .arrow {
+  .card-wrapper .one-1:hover .arrow, .card-wrapper .five-3:hover .arrow {
     width: 90%;
   }
-  .card-4 .arrow {
+  .card-wrapper .arrow {
     bottom: 14px !important;
     left: 11px !important;
   }
-  .card-4 p {
+  .card-wrapper p {
     font-size: 17px !important;
   }
 }
 @media (max-width: 766px) {
-  .card-5 .none {
+  .cards-lg .none {
     display: none;
   }
-  .card-4 .one-1:hover .arrow, .card-4 .five-3:hover .arrow, .card-4 .three-2:hover .arrow {
+  .card-wrapper .one-1:hover .arrow, .card-wrapper .five-3:hover .arrow, .card-wrapper .three-2:hover .arrow {
     border: 1px #54b3a1 solid;
     height: 0;
     width: 20px;
   }
-  .card-4:hover .right::after {
+  .card-wrapper:hover .right::after {
     right: -14px;
     width: 24px;
   }
-  .card-4 .one-1:hover .right {
+  .card-wrapper .one-1:hover .right {
     right: 17px !important;
   }
-  .card-4 .three-2:hover .four {
+  .card-wrapper .three-2:hover .four {
     bottom: 3px;
     left: 12px;
   }
-  .card-4 .three-2:hover .three {
+  .card-wrapper .three-2:hover .three {
     bottom: 27px;
     left: 12px;
   }
-  .card-4 .five-3:hover .five {
+  .card-wrapper .five-3:hover .five {
     bottom: 3px;
     left: 10px;
   }
@@ -4207,22 +4176,22 @@ button.more.btn:focus {
     right: -14px;
     background: #FFFFFF;
   }
-  .card-4 .one-1:hover .two {
+  .card-wrapper .one-1:hover .two {
     bottom: 3px !important;
     left: 11px !important;
   }
-  .card-4 .one-1:hover .one {
+  .card-wrapper .one-1:hover .one {
     bottom: 27px;
     left: 11px;
   }
 }
-.card-4 .once {
+.card-wrapper .once {
   width: 220px;
 }
-.card-4 .owl-item {
+.card-wrapper .owl-item {
   margin-right: 70px !important;
 }
-.card-4 .owl-stage {
+.card-wrapper .owl-stage {
   width: 1935px !important;
 }
 
@@ -4230,7 +4199,7 @@ button.more.btn:focus {
   .owl-stage-outer {
     width: 30000px !important;
   }
-  .card-4 .once {
+  .card-wrapper .once {
     width: 219px;
   }
   .owl-item {
@@ -4241,7 +4210,7 @@ button.more.btn:focus {
   .owl-stage-outer {
     width: 30000px !important;
   }
-  .card-4 .once {
+  .card-wrapper .once {
     width: 219px;
   }
   .owl-item {
@@ -4252,7 +4221,7 @@ button.more.btn:focus {
   .owl-stage-outer {
     width: 30000px !important;
   }
-  .card-4 .once {
+  .card-wrapper .once {
     width: 219px;
   }
   .owl-item {
@@ -4263,7 +4232,7 @@ button.more.btn:focus {
   .owl-stage-outer {
     width: 30000px !important;
   }
-  .card-4 .once {
+  .card-wrapper .once {
     width: 219px;
   }
   .owl-item {
@@ -4284,17 +4253,17 @@ button.more.btn:focus {
   .page {
     min-height: 330vh !important;
   }
-  .card-4 .once {
+  .card-wrapper .once {
     width: 185px;
   }
-  .card-4 .once .arrow {
+  .card-wrapper .once .arrow {
     bottom: 4px;
     left: 4px;
     width: 20px;
     height: 0;
     border-bottom: 2px #54b3a1 solid;
   }
-  .card-4 .once .right {
+  .card-wrapper .once .right {
     display: block;
     height: 10px !important;
     width: 10px !important;
@@ -4303,18 +4272,18 @@ button.more.btn:focus {
     bottom: 17px;
     right: 17px !important;
   }
-  .card-4 .once .right::after {
+  .card-wrapper .once .right::after {
     width: 24px;
     height: 2px;
     bottom: -4px;
     right: -14px;
     background: #FFFFFF;
   }
-  .card-4 .once .one {
+  .card-wrapper .once .one {
     bottom: 10px;
     left: 7px;
   }
-  .card-4 .once .one .right {
+  .card-wrapper .once .one .right {
     display: block;
     height: 10px !important;
     width: 10px !important;
@@ -4323,18 +4292,18 @@ button.more.btn:focus {
     bottom: 17px;
     right: 17px !important;
   }
-  .card-4 .once .one .right::after {
+  .card-wrapper .once .one .right::after {
     width: 24px;
     height: 2px;
     bottom: -4px;
     right: -14px;
     background: #FFFFFF;
   }
-  .card-4 .once .two {
+  .card-wrapper .once .two {
     bottom: -11px;
     left: 6px;
   }
-  .card-4 .once .two .right {
+  .card-wrapper .once .two .right {
     display: block;
     height: 10px !important;
     width: 10px !important;
@@ -4343,18 +4312,18 @@ button.more.btn:focus {
     bottom: 17px;
     right: 17px;
   }
-  .card-4 .once .two .right::after {
+  .card-wrapper .once .two .right::after {
     width: 24px;
     height: 2px;
     bottom: -4px;
     right: -14px;
     background: #FFFFFF;
   }
-  .card-4 .once .three {
+  .card-wrapper .once .three {
     bottom: 10px;
     left: 7px;
   }
-  .card-4 .once .three .right {
+  .card-wrapper .once .three .right {
     display: block;
     height: 10px !important;
     width: 10px !important;
@@ -4363,18 +4332,18 @@ button.more.btn:focus {
     bottom: 17px;
     right: 17px;
   }
-  .card-4 .once .three .right::after {
+  .card-wrapper .once .three .right::after {
     width: 24px;
     height: 2px;
     bottom: -4px;
     right: -14px;
     background: #FFFFFF;
   }
-  .card-4 .once .four {
+  .card-wrapper .once .four {
     bottom: -11px;
     left: 6px;
   }
-  .card-4 .once .four .right {
+  .card-wrapper .once .four .right {
     display: block;
     height: 10px !important;
     width: 10px !important;
@@ -4383,18 +4352,18 @@ button.more.btn:focus {
     bottom: 17px;
     right: 17px;
   }
-  .card-4 .once .four .right::after {
+  .card-wrapper .once .four .right::after {
     width: 24px;
     height: 2px;
     bottom: -4px;
     right: -14px;
     background: #FFFFFF;
   }
-  .card-4 .once .five {
+  .card-wrapper .once .five {
     bottom: -11px;
     left: 6px;
   }
-  .card-4 .once .five .right {
+  .card-wrapper .once .five .right {
     display: block;
     height: 10px !important;
     width: 10px !important;
@@ -4403,29 +4372,29 @@ button.more.btn:focus {
     bottom: 17px;
     right: 17px;
   }
-  .card-4 .once .five .right::after {
+  .card-wrapper .once .five .right::after {
     width: 24px;
     height: 2px;
     bottom: -4px;
     right: -14px;
     background: #FFFFFF;
   }
-  .card-4 .once:hover .arrow {
+  .card-wrapper .once:hover .arrow {
     bottom: 4px;
     left: 4px;
     width: 20px;
     height: 0;
     border: 1px #54b3a1 solid;
   }
-  .card-4 .once:hover img {
+  .card-wrapper .once:hover img {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-  .card-4 .once:hover .one {
+  .card-wrapper .once:hover .one {
     bottom: 10px;
     left: 7px;
   }
-  .card-4 .once:hover .one .right {
+  .card-wrapper .once:hover .one .right {
     height: 10px !important;
     width: 10px !important;
     border-top: 3px solid #FFFFFF;
@@ -4433,18 +4402,18 @@ button.more.btn:focus {
     bottom: 17px;
     right: 17px !important;
   }
-  .card-4 .once:hover .one .right::after {
+  .card-wrapper .once:hover .one .right::after {
     width: 24px;
     height: 2px;
     bottom: -4px;
     right: -14px;
     background: #FFFFFF;
   }
-  .card-4 .once:hover .two {
+  .card-wrapper .once:hover .two {
     bottom: -11px;
     left: 6px;
   }
-  .card-4 .once:hover .two .right {
+  .card-wrapper .once:hover .two .right {
     height: 10px !important;
     width: 10px !important;
     border-top: 3px solid #FFFFFF;
@@ -4452,18 +4421,18 @@ button.more.btn:focus {
     bottom: 17px;
     right: 17px;
   }
-  .card-4 .once:hover .two .right::after {
+  .card-wrapper .once:hover .two .right::after {
     width: 24px;
     height: 2px;
     bottom: -4px;
     right: -14px;
     background: #FFFFFF;
   }
-  .card-4 .once:hover .three {
+  .card-wrapper .once:hover .three {
     bottom: 10px;
     left: 7px;
   }
-  .card-4 .once:hover .three .right {
+  .card-wrapper .once:hover .three .right {
     display: block;
     height: 10px !important;
     width: 10px !important;
@@ -4472,18 +4441,18 @@ button.more.btn:focus {
     bottom: 17px;
     right: 17px;
   }
-  .card-4 .once:hover .three .right::after {
+  .card-wrapper .once:hover .three .right::after {
     width: 24px;
     height: 2px;
     bottom: -4px;
     right: -14px;
     background: #FFFFFF;
   }
-  .card-4 .once:hover .four {
+  .card-wrapper .once:hover .four {
     bottom: -11px;
     left: 6px;
   }
-  .card-4 .once:hover .four .right {
+  .card-wrapper .once:hover .four .right {
     display: block;
     height: 10px !important;
     width: 10px !important;
@@ -4492,18 +4461,18 @@ button.more.btn:focus {
     bottom: 17px;
     right: 17px;
   }
-  .card-4 .once:hover .four .right::after {
+  .card-wrapper .once:hover .four .right::after {
     width: 24px;
     height: 2px;
     bottom: -4px;
     right: -14px;
     background: #FFFFFF;
   }
-  .card-4 .once:hover .five {
+  .card-wrapper .once:hover .five {
     bottom: -11px;
     left: 6px;
   }
-  .card-4 .once:hover .five .right {
+  .card-wrapper .once:hover .five .right {
     display: block;
     height: 10px !important;
     width: 10px !important;
@@ -4512,32 +4481,32 @@ button.more.btn:focus {
     bottom: 17px;
     right: 17px;
   }
-  .card-4 .once:hover .five .right::after {
+  .card-wrapper .once:hover .five .right::after {
     width: 24px;
     height: 2px;
     bottom: -4px;
     right: -14px;
     background: #FFFFFF;
   }
-  .card-4 .owl-item {
+  .card-wrapper .owl-item {
     margin-right: 71px !important;
   }
-  .card-4 .owl-stage {
+  .card-wrapper .owl-stage {
     width: 1935px !important;
   }
 }
 @media (max-width: 420px) {
-  .card-4 .owl-item {
+  .card-wrapper .owl-item {
     margin-right: 82px !important;
   }
 }
 @media (max-width: 388px) {
-  .card-4 .owl-item {
+  .card-wrapper .owl-item {
     margin-right: 104px !important;
   }
 }
 @media (max-width: 336px) {
-  .card-4 .owl-item {
+  .card-wrapper .owl-item {
     margin-right: 114px !important;
   }
 }
@@ -5027,7 +4996,7 @@ body .my-button:focus {
 .cookies {
   border: 1px solid #FFFFFF;
   max-width: 100%;
-  padding: 0px 3px 0 16px;
+  padding: 16px 3px 0 16px;
   margin-top: 40px !important;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -5157,6 +5126,7 @@ body .my-button:focus {
   }
   .cookies {
     padding-top: 12px !important;
+    padding-bottom: 8px;
     text-transform: none;
   }
   .cookies .accapt {

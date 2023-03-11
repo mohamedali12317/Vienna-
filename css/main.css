@@ -71,10 +71,14 @@
 
     } 
 
-@media (max-width: 1202px) {
+    
+@media (max-width: 1205px) {
   .header-black .navigation {
     margin: -40px 0 0 -33px !important;
   }
+    } 
+
+@media (max-width: 1202px) {
 
   .header-black {
     display: none;
@@ -92,3 +96,10 @@
     /* .header-black .menu-icon{
   position: fixed;
 } */
+
+
+@media (main-width: 1203px){
+  .first .overl-lay:hover .Vodka, .first .overl-lay:hover .Liquor{
+    bottom: -10px !important;
+  }
+}
