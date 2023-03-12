@@ -4369,12 +4369,12 @@ img.card-img-top{
     grid-template-columns: repeat(auto-fit, minmax(lfr, auto));
     gap: 8px;
 
-    .one-1 {
+    .star-word-drink {
       column-span: 1/3;
       grid-row: 1 / 3;
   } // one-1
 
-    .one-10 {
+    .ice-bottle {
       grid-row: 1 /3;
       grid-column: 6 / 6;
   } // one-10 
@@ -4510,38 +4510,38 @@ img.card-img-top{
       grid-template-columns: repeat(3, auto);
       grid-template-rows: repeat(4, auto);
 
-      .two-2 , .three-3{
+      .skull-drink , .bentianna{
         height: 170px;
-      } // .two-2 , .three-3
+      } // .skull-drink , .bentianna
 
-      .three-3{
+      .bentianna{
         grid-column: 2 / 2;
         grid-row: 2 / 2;
         position: absolute;
         top: -179px;
-      } // .three-3
+      } // .bentianna
 
-      .five-5{
+      .dead-mans-fingers{
         grid-column: 3 / 3;
         grid-row: 2 / 1;
         position: absolute;
         top: 175px;
         right: 0;
-      } // .five-5
+      } // .dead-mans-fingers
 
-      .seven-7{
+      .three-bottles{
         grid-column: 1 / 1;
         grid-row: 4 / 3;
-      } // .seven-7
+      } // .three-bottles
 
-      .one-10{
+      .ice-bottle{
         grid-row: 2/6;  
         grid-column: 3/3;
-      } // .one-10
+      } // .ice-bottle
 
-      .one-1{
+      .star-word-drink{
         grid-row: 1/1;
-      } // .one-1
+      } // .star-word-drink
 
       img{
         max-width: 100%;
@@ -4552,7 +4552,7 @@ img.card-img-top{
 
    @media (max-width: 567px){
 
-    .item-gallery .three-3{
+    .item-gallery .bentianna{
       top: -172px;
     }
  
@@ -4573,7 +4573,7 @@ img.card-img-top{
       margin: 0px 0 10px 0px;
     }
 
-    .item-gallery .three-3{
+    .item-gallery .bentianna{
       top: -160px;
     }
  
@@ -4585,11 +4585,11 @@ img.card-img-top{
       margin: 0px 0 6px 0px;
     }
 
-    .item-gallery .three-3{
+    .item-gallery .bentianna{
       top: -164px;
     }
 
-    .item-gallery .five-5{
+    .item-gallery .dead-mans-fingers{
       top: 156px;
     }
  
@@ -4597,7 +4597,7 @@ img.card-img-top{
 
    @media (max-width: 506px){
 
-    .item-gallery .three-3{
+    .item-gallery .bentianna{
       top: -152px ;
     }    
  
@@ -4605,7 +4605,7 @@ img.card-img-top{
 
    @media (max-width: 490px){
 
-    .item-gallery .five-5{
+    .item-gallery .dead-mans-fingers{
       top: 146px;
     }
  
@@ -4613,7 +4613,7 @@ img.card-img-top{
 
    @media (max-width: 463px){
 
-    .item-gallery .three-3{
+    .item-gallery .bentianna{
       top: -133px ;
     }    
  
@@ -4621,7 +4621,7 @@ img.card-img-top{
 
    @media (max-width: 444px){
 
-    .item-gallery .five-5{
+    .item-gallery .dead-mans-fingers{
       top: 137px;
     }
  
@@ -4629,7 +4629,7 @@ img.card-img-top{
 
    @media (max-width: 433px){
 
-    .item-gallery .five-5{
+    .item-gallery .dead-mans-fingers{
       top: 128px;
     }
  
@@ -4637,7 +4637,7 @@ img.card-img-top{
 
    @media (max-width: 423px){
 
-    .item-gallery .five-5{
+    .item-gallery .dead-mans-fingers{
       top: 122px;
     }
  
@@ -4645,7 +4645,7 @@ img.card-img-top{
 
    @media (max-width: 414px){
 
-    .item-gallery .three-3{
+    .item-gallery .bentianna{
       top: -124px;
     }    
  
@@ -4653,7 +4653,7 @@ img.card-img-top{
 
    @media (max-width: 403px){
 
-    .item-gallery .three-3{
+    .item-gallery .bentianna{
       top: -115px;
     }    
  
@@ -4662,7 +4662,7 @@ img.card-img-top{
 
    @media (max-width: 389px){
 
-    .item-gallery .five-5{
+    .item-gallery .dead-mans-fingers{
       top: 114px;
     }    
  
@@ -4670,7 +4670,7 @@ img.card-img-top{
 
    @media (max-width: 368px){
 
-    .item-gallery .three-3{
+    .item-gallery .bentianna{
       top: -108px;
     }    
  
@@ -4678,7 +4678,7 @@ img.card-img-top{
 
    @media (max-width: 366px){
 
-    .item-gallery .three-3{
+    .item-gallery .bentianna{
       top: -105px;
     }    
  
@@ -4686,7 +4686,7 @@ img.card-img-top{
 
    @media (max-width: 389px){
 
-    .item-gallery .five-5{
+    .item-gallery .dead-mans-fingers{
       top: 107px;
     }    
  
@@ -4694,7 +4694,7 @@ img.card-img-top{
 
    @media (max-width: 350px){
 
-    .item-gallery .three-3{
+    .item-gallery .bentianna{
       top: -99px;
     }    
  
@@ -4702,7 +4702,7 @@ img.card-img-top{
 
    @media (max-width: 354px){
 
-    .item-gallery .five-5{
+    .item-gallery .dead-mans-fingers{
       top: 101px;
     }    
  
@@ -4710,7 +4710,7 @@ img.card-img-top{
 
    @media (max-width: 344px){
 
-    .item-gallery .three-3{
+    .item-gallery .bentianna{
       top: -96px;
     }    
  
@@ -4718,7 +4718,7 @@ img.card-img-top{
 
    @media (max-width: 333px){
 
-    .item-gallery .three-3{
+    .item-gallery .bentianna{
       top: -88px;
     }    
  
@@ -4726,7 +4726,7 @@ img.card-img-top{
 
    @media (max-width: 319px){
 
-    .item-gallery .five-5{
+    .item-gallery .dead-mans-fingers{
       top: 92px;
     }    
  
@@ -4815,7 +4815,7 @@ img.card-img-top{
     }
   } // line
 
-  .right-two{
+  .arrow-more{
 
     transition: all 0.6s ease-out;
     position: relative;
@@ -4854,7 +4854,7 @@ img.card-img-top{
     margin-top: 31px;
   } // more  
 
-  .hover-1{
+  .hover-more{
     position: relative;
     transition: all 0.6s ease-out;
     height: 4%;
@@ -4865,7 +4865,7 @@ img.card-img-top{
         color: $blue;
       } // more
 
-      .right-two{
+      .arrow-more{
         border-top: 3px solid $blue;
         border-left: 3px solid $blue; 
         right: -248px;
@@ -4882,7 +4882,7 @@ img.card-img-top{
     } // hover
    
     
-  } // .hover-1
+  } // .hover-more
   
 
 
@@ -4915,7 +4915,7 @@ img.card-img-top{
       padding: 0 139px 0 0;
   }
 
-  &.markt{
+  &.Retail{
     // padding: 0 110px 0 0;
     padding: 0 149px 0 0;
   }
@@ -4969,7 +4969,7 @@ img.card-img-top{
     padding: 0 90px 0 0 !important;
   } // party
 
-  .markt{
+  .Retail{
     padding: 0 111px 0 0 !important;
   } // markt
 
@@ -4991,7 +4991,7 @@ img.card-img-top{
     padding: 0 27px 0 0 !important;
   } // party
 
-  .markt{
+  .Retail{
     padding: 0 52px 0 0 !important
   } // markt
 
@@ -5003,7 +5003,7 @@ img.card-img-top{
 
 
 // @media (max-width: 1272px){  // دا بيظهر عند الناس مش عندى
-//   .right-1{
+//   .gastronomy-section{
 //       img{
 //         // margin-bottom: 18px; orgnal
 //         // new
@@ -5014,7 +5014,7 @@ img.card-img-top{
 
 @media (max-width: 991px) {
 
-  .cards .hover-1:hover .right-two{
+  .cards .hover-more:hover .arrow-more{
     right: -206px;
   }
 
@@ -5022,7 +5022,7 @@ img.card-img-top{
     padding: 34px 0 0 61px !important;
   }
 
-  .cards .right-two {
+  .cards .arrow-more {
     bottom: 15px;
     right: -190px;
   }
@@ -5058,7 +5058,7 @@ img.card-img-top{
       padding: 0 0 0 64px !important;
     } // more
 
-    .right-2{ 
+    .Retail-section{ 
 
       .more{
         // padding: 27px 0 0 64px !important;
@@ -5066,7 +5066,7 @@ img.card-img-top{
 
     } // right-2
 
-    .right-3{ 
+    .Events-section{ 
 
       .more{
         padding: 0px 0 0 64px !important;
@@ -5076,7 +5076,7 @@ img.card-img-top{
 
   } // card-3
 
-  .right-1{
+  .gastronomy-section{
     img{
       // margin-bottom: 13px; // i dont know this good for other or no 
       margin-bottom: -3px;
@@ -5088,7 +5088,7 @@ img.card-img-top{
     margin-top: 31px;
   } // party
 
-  .markt{
+  .Retail{
     padding: 0 35px 0 0 !important;
   } // markt
 
@@ -5156,9 +5156,9 @@ img.card-img-top{
         margin: 0 0 -21px 0;
     } // .gastronomy
 
-      .markt {
+      .Retail {
         padding: 0 93px 5px 0px !important;
-    } // .markt
+    } // .Retail
 
       .party {
        padding: 0 72px 0 0px !important;
@@ -5169,8 +5169,8 @@ img.card-img-top{
       font: 15px/24px Futura PT !important;
     } // more
 
-    .hover-1{
-      .right-two{
+    .hover-more{
+      .arrow-more{
         display: block;
         border-top: 2px solid $gray;
         border-left: 2px solid $gray;
@@ -5184,14 +5184,14 @@ img.card-img-top{
           height: 2px;
         } // after
   
-      } // .right-two
+      } // .arrow-more
 
-    } // .hover-1
+    } // .hover-more
 
 
     } // line
 
-    .right-1 {
+    .gastronomy-section {
 
       img{
         // margin-bottom: 68px;
@@ -5204,23 +5204,23 @@ img.card-img-top{
         padding: 0 0 0 11px !important;
       } // .more
 
-  } // .right-1
+  } // .gastronomy-section
 
-  .right-2{
+  .Retail-section{
     .more{
       padding: 0px 0 0 17px !important;
     } // .more
 
-    .hover-1{
-      .right-two{
+    .hover-more{
+      .arrow-more{
         right: -129px;
       } // right-two
 
-    } // .hover-1
+    } // .hover-more
 
-  } // .right-2
+  } // .Retail-section
 
-  .right-3{
+  .Events-section{
     .more{
       padding: 0 0 0 13px !important;
     } // .more
@@ -5232,7 +5232,7 @@ img.card-img-top{
       // margin-bottom: 38px;
       margin-bottom: 35px;
     } // pp
-  } // .right-3
+  } // .Events-section
 
   .col-4{
     width: 131.333333%;
@@ -5260,26 +5260,26 @@ img.card-img-top{
         padding: 0 75px 0 0px !important;
       } // party
 
-      .markt{
+      .Retail{
         padding: 0 98px 5px 0px !important;
       } // markt
 
     } // .line
 
     
-    .right-3{
+    .Events-section{
       .paragraph{
         margin-bottom: 37px;
       } // pp
       
-    } // .right-3
+    } // .Events-section
 
   } // .last-none
 } // 555
 
 
 @media (max-width: 519px){
-  .last-none .right-3 .paragraph{
+  .last-none .Events-section .paragraph{
     margin-bottom: -14px;
   }
 }
@@ -5289,7 +5289,7 @@ img.card-img-top{
     padding:0 115px 0 0px !important;
   }
 
-  .last-none .line .markt{
+  .last-none .line .Retail{
     padding:0 136px 5px 0px !important;
   }
 
@@ -5297,11 +5297,11 @@ img.card-img-top{
     padding:0 31px 6px 0px !important;
   }
 
-  .last-none .right-2 .more , .last-none .right-3 .more , .last-none .right-1 .more{
+  .last-none .Retail-section .more , .last-none .Events-section .more , .last-none .gastronomy-section .more{
     padding: 0px 0 0 0px !important;
   }
 
-  .last-none .right-3 .paragraph{
+  .last-none .Events-section .paragraph{
     // margin-bottom: 39px;
     // margin-bottom: 37px;
   }
@@ -5313,17 +5313,17 @@ img.card-img-top{
 } // 487
 
 @media (max-width: 436px){
-  .last-none .right-1 .paragraph{
+  .last-none .gastronomy-section .paragraph{
         margin-bottom: 37px;
   }
 }
 @media (max-width: 474px){
-  .right-1{
+  .gastronomy-section{
     .paragraph{
       // margin-bottom: -19px;
       margin-bottom: 13px;
     } // pp 
-  } // .right-1
+  } // .gastronomy-section
 } // 474
 
 @media (max-width: 440px){
@@ -5336,7 +5336,7 @@ img.card-img-top{
   .last-none .line .paragraph{
     padding: 50px 0 0 0 !important;
   }
-  .last-none .right-3 .paragraph{
+  .last-none .Events-section .paragraph{
     margin-bottom: -14px;
   }
 
@@ -5369,7 +5369,7 @@ img.card-img-top{
     margin: 0 0 -24px 0 !important;
   } 
 
-  .last-none .right-1 img{
+  .last-none .gastronomy-section img{
     // margin-bottom: -36px;
     margin-bottom: 27px;
   }
@@ -5378,33 +5378,33 @@ img.card-img-top{
     font: normal normal normal 24px/11px Futura PT !important;
   }
 
-  .last-none .right-3 .paragraph{
+  .last-none .Events-section .paragraph{
     // margin-bottom: -14px;
     margin-bottom: -26px;
   }
 
   
-  .last-none .right-2 .paragraph{
+  .last-none .Retail-section .paragraph{
     margin-bottom: -14px;
   }
   
 
-  .last-none .right-1 .paragraph{
+  .last-none .gastronomy-section .paragraph{
     margin-bottom: -14px;
   }
   
 }// 428
 
 @media (max-width: 418px){
-  .last-none .right-3 .paragraph{
+  .last-none .Events-section .paragraph{
     margin-bottom: -7px;
   }
 
-  .last-none .right-1 .paragraph{
+  .last-none .gastronomy-section .paragraph{
     margin-bottom: -16px;
   }
 
-  .last-none .right-2 .paragraph{
+  .last-none .Retail-section .paragraph{
     margin-bottom: 38px;
   }
   
@@ -5414,11 +5414,11 @@ img.card-img-top{
   .last-none .line .party{
     margin-bottom: -6px;
   }  
-  .last-none .right-2 .paragraph{
+  .last-none .Retail-section .paragraph{
     margin-bottom: -10px;
   }
 
-  .last-none .right-3 .paragraph{
+  .last-none .Events-section .paragraph{
     margin-bottom: -7px;
   }
   
@@ -5453,11 +5453,11 @@ img.card-img-top{
  } // .paragraph
 
 
-  .last-none .right-3 .paragraph{
+  .last-none .Events-section .paragraph{
     margin-bottom: 37px;
   }
 
-  .last-none .right-1 img{
+  .last-none .gastronomy-section img{
     height: 126px;
   }
 } // 379
@@ -5471,17 +5471,17 @@ img.card-img-top{
 
 @media (max-width: 379px){
 
-  .last-none .right-3 .paragraph{
+  .last-none .Events-section .paragraph{
     margin-bottom: 37px;
   }
 
-  .last-none .right-1 img{
+  .last-none .gastronomy-section img{
     height: 126px;
   }
 } // 379
 
 @media (max-width: 360px){
-  .last-none .right-1 button.more.btn{
+  .last-none .gastronomy-section button.more.btn{
     margin-bottom: 10px;
   }
 
@@ -5490,7 +5490,7 @@ img.card-img-top{
 
 .card-wrapper{
 
-  .one-1{
+  .whiskey-card{
     overflow: hidden;
      transition: all 0.6s ease-out;
   
@@ -5510,13 +5510,13 @@ img.card-img-top{
         -o-transform: translate3d(0, 0px, 80px);
 } //img
   
-      .one{
+      .WORLD{
         bottom: 37px;
         // left: 49px;
         left: 35px;
       }
   
-      .two{
+      .whiskey{
         bottom: 9px;
         // left: 49px;
         left: 35px;
@@ -5531,7 +5531,7 @@ img.card-img-top{
     }// hover
   
   
-    .one{
+    .WORLD{
       left: 0;
       font-weight: bold;
       bottom: 27px;
@@ -5558,7 +5558,7 @@ img.card-img-top{
   
   
   
-  .two{
+  .whiskey{
     left: 0;
     font-weight: bold;
     bottom: 3px;
@@ -5580,7 +5580,7 @@ img.card-img-top{
   
   }
   
-  .three-2{
+  .gin-card{
     overflow: hidden;
   
     &:hover{
@@ -5599,14 +5599,14 @@ img.card-img-top{
         -o-transform: translate3d(0, 0px, 80px);
 } //img
   
-      .three{
+      .gin{
         bottom: 37px;
         // left: 49px;   
         left: 33px;  
         transition: all 0.3s ease;
       }
   
-      .four{
+      .moment{
         bottom: 9px;
         // left: 49px;
         left: 33px;
@@ -5622,7 +5622,7 @@ img.card-img-top{
     }//hover
   
   
-    .three{
+    .gin{
       left: 0;
       font-weight: bold;
       bottom: 27px;
@@ -5631,7 +5631,7 @@ img.card-img-top{
       font-size: 33px;
     }
     
-    .four{
+    .moment{
       left: 0;
       font-weight: bold;
       bottom: 3px;
@@ -5654,7 +5654,7 @@ img.card-img-top{
   
   } // three-2
   
-  .five-3{
+  .connoisseur-card{
    overflow: hidden;
   
     &:hover{
@@ -5674,7 +5674,7 @@ img.card-img-top{
         -o-transform: translate3d(0, 0px, 80px);
 } //img
   
-      .five{
+      .connoisseur{
         bottom: 9px;
         // left: 49px;
         left: 33px;
@@ -5688,7 +5688,7 @@ img.card-img-top{
     }
   
   
-    .five{
+    .connoisseur{
       left: 0;
       font-weight: bold;
       bottom: 3px;
@@ -5789,11 +5789,11 @@ img.card-img-top{
   
   }
 
-  .card-wrapper .five-3 .five{
+  .card-wrapper .connoisseur-card .connoisseur{
     left: 25px;
   }
   
-  .card-wrapper .five-3:hover img{
+  .card-wrapper .connoisseur-card:hover img{
     //width: 400px;
     transform: translate3d(0px, 0px, 40px);
     -webkit-transform: translate3d(0px, 0px, 40px);
@@ -5805,30 +5805,30 @@ img.card-img-top{
     left: 20px;
   }
 
-  .one-1 .arrow{
+  .whiskey-card .arrow{
     left: 16px;
   }
 
-  .card-wrapper .five-3{
+  .card-wrapper .connoisseur-card{
     width: 405px;
     height: 480px;
   }
 
-  .card-wrapper .five-3 .five{
+  .card-wrapper .connoisseur-card .connoisseur{
     left: 17px;
   }
 
-  .card-wrapper .three-2{
+  .card-wrapper .gin-card{
     margin-right: 33px;
     width: 405px;
     height: 480px;
   }
 
-  .card-wrapper .five-3:hover .arrow{
+  .card-wrapper .connoisseur-card:hover .arrow{
     width: 91%;
   }
 
-  .card-wrapper .three-2:hover img{
+  .card-wrapper .gin-card:hover img{
     transform: translate3d(0, 0px, 40px);
     -webkit-transform: translate3d(0, 0px, 40px);
     -moz-transform: translate3d(0, 0px, 40px);
@@ -5836,21 +5836,21 @@ img.card-img-top{
     -o-transform: translate3d(0, 0px, 40px);
 } 
 
-.card-wrapper .three-2 .four{
+.card-wrapper .gin-card .moment{
   left: 18px;
-} // .card-wrapper .three-2 .four
+} // .card-wrapper .gin-card .moment
 
-.card-wrapper .three-2 .three{
+.card-wrapper .gin-card .gin{
   left: 18px;
-} // .card-wrapper .three-2 .three
+} // .card-wrapper .gin-card .gin
 
-.card-wrapper .one-1{
+.card-wrapper .whiskey-card{
   margin-right: 33px;
   width: 405px;
   height: 480px;
 }
 
-.card-wrapper .one-1:hover img{
+.card-wrapper .whiskey-card:hover img{
   transform: translate3d(0, 0px, 40px);
   -webkit-transform: translate3d(0, 0px, 40px);
   -moz-transform: translate3d(0, 0px, 40px);
@@ -5858,13 +5858,13 @@ img.card-img-top{
   -o-transform: translate3d(0, 0px, 40px);
 }
 
-.card-wrapper .two{
+.card-wrapper .whiskey{
   left: 16px;
-} // .card-wrapper .two
+} // .card-wrapper .whiskey
 
-.card-wrapper .one-1 .one{
+.card-wrapper .whiskey-card .WORLD{
   left: 16px;
-}  // .card-wrapper .one-1 .one
+}  // .card-wrapper .whiskey-card .WORLD
 
 } // 1400
 
@@ -5910,11 +5910,11 @@ img.card-img-top{
 }
     
     @media (max-width: 1199px){
-      .cards .five-3:hover .right{
+      .cards .connoisseur-card:hover .right{
         right: 25px;
       }
 
-      .cards .three-2:hover .right , .cards .one-1:hover .right {
+      .cards .gin-card:hover .right , .cards .whiskey-card:hover .right {
         right: 38px;
       }
      
@@ -5922,7 +5922,7 @@ img.card-img-top{
 
       
     @media (max-width: 991px){
-      .card-wrapper .one-1:hover .arrow , .card-wrapper .five-3:hover .arrow{
+      .card-wrapper .whiskey-card:hover .arrow , .card-wrapper .connoisseur-card:hover .arrow{
         width: 90%;
       }
 
@@ -5948,7 +5948,7 @@ img.card-img-top{
         }
 
 
-      .card-wrapper .one-1:hover .arrow, .card-wrapper .five-3:hover .arrow , .card-wrapper .three-2:hover .arrow{
+      .card-wrapper .whiskey-card:hover .arrow, .card-wrapper .connoisseur-card:hover .arrow , .card-wrapper .gin-card:hover .arrow{
         border: 1px #54b3a1 solid;
         height: 0;
         width: 20px;
@@ -5959,25 +5959,25 @@ img.card-img-top{
         //  width: 22px;
         width: 24px;
       }
-      .card-wrapper .one-1:hover .right{
+      .card-wrapper .whiskey-card:hover .right{
         right: 17px !important;
       }
               
-      .card-wrapper .three-2:hover .four{
+      .card-wrapper .gin-card:hover .moment{
         bottom: 3px;
         left: 12px;
       }
-      .card-wrapper .three-2:hover .three{
+      .card-wrapper .gin-card:hover .gin{
         bottom: 27px;
         left: 12px;
       }
 
-      .card-wrapper .five-3:hover .five{
+      .card-wrapper .connoisseur-card:hover .connoisseur{
         bottom: 3px;
         left: 10px;
       }
 
-      .once{
+      .mobile-cards{
         width: 185px;
 
         .arrow{
@@ -6009,8 +6009,9 @@ img.card-img-top{
         } // right
 
         
-        .one{
-          bottom: 10px;
+        .WORLD{
+          // bottom: 10px;
+          bottom: 25px;
           left: 7px;
 
           .right{
@@ -6035,7 +6036,7 @@ img.card-img-top{
         } // one
         
 
-        .two{
+        .whiskey{
 
           .right{
             display: block;
@@ -6059,7 +6060,7 @@ img.card-img-top{
 
         } // two
 
-        .three{
+        .gin{
           bottom: 10px;
           left: 7px;
 
@@ -6085,7 +6086,7 @@ img.card-img-top{
 
         } // three
 
-        .four{
+        .moment{
           bottom: -11px;
           left: 6px;
 
@@ -6111,7 +6112,7 @@ img.card-img-top{
 
         } // four
 
-        .five{
+        .connoisseur{
           bottom: -11px;
           left: 6px;
 
@@ -6177,8 +6178,8 @@ img.card-img-top{
             transform: scale(1);
           } // img
 
-          .one{
-            bottom: 10px;
+          .WORLD{
+            // bottom: 10px;
             left: 7px;
 
             .right{
@@ -6202,9 +6203,9 @@ img.card-img-top{
           } // one
           
 
-          .two{
-            bottom: -11px;
-            left: 6px;
+          .whiskey{
+            // bottom: -11px;
+            // left: 6px;
 
             .right{
           height: 10px !important;
@@ -6227,7 +6228,7 @@ img.card-img-top{
 
           } // two
 
-          .three{
+          .gin{
             bottom: 10px;
             left: 7px;
 
@@ -6253,7 +6254,7 @@ img.card-img-top{
 
           } // three
 
-          .four{
+          .moment{
             bottom: -11px;
             left: 6px;
 
@@ -6279,7 +6280,7 @@ img.card-img-top{
 
           } // four
 
-          .five{
+          .connoisseur{
             bottom: -11px;
             left: 6px;
 
@@ -6310,12 +6311,12 @@ img.card-img-top{
 
       }
 
-      .card-wrapper .one-1:hover .two{
+      .card-wrapper .whiskey-card:hover .whiskey{
         bottom: 3px !important;
         left: 11px !important;
       }
 
-      .card-wrapper .one-1:hover .one{
+      .card-wrapper .whiskey-card:hover .WORLD{
         bottom: 27px;
         left: 11px;
       }
@@ -6326,7 +6327,7 @@ img.card-img-top{
 
         .card-wrapper{
         
-        .once{
+        .mobile-cards{
           width: 220px;
         }
 
@@ -6351,7 +6352,7 @@ img.card-img-top{
 
           } // owl-stage-outer
 
-          .card-wrapper .once {
+          .card-wrapper .mobile-cards {
             width: 219px;
         }
 
@@ -6372,7 +6373,7 @@ img.card-img-top{
 
           } // owl-stage-outer
 
-          .card-wrapper .once {
+          .card-wrapper .mobile-cards {
             width: 219px;
         }
 
@@ -6390,7 +6391,7 @@ img.card-img-top{
 
           } // owl-stage-outer
 
-          .card-wrapper .once {
+          .card-wrapper .mobile-cards {
             width: 219px;
         }
 
@@ -6408,7 +6409,7 @@ img.card-img-top{
 
           } // owl-stage-outer
 
-          .card-wrapper .once {
+          .card-wrapper .mobile-cards {
             width: 219px;
         }
 
@@ -6445,7 +6446,7 @@ img.card-img-top{
 
           .card-wrapper{
         
-            .once{
+            .mobile-cards{
               width: 185px;
 
               .arrow{
@@ -6477,7 +6478,7 @@ img.card-img-top{
               } // right
 
               
-              .one{
+              .WORLD{
                 bottom: 10px;
                 left: 7px;
 
@@ -6503,7 +6504,7 @@ img.card-img-top{
               } // one
               
 
-              .two{
+              .whiskey{
                 bottom: -11px;
                 left: 6px;
 
@@ -6529,7 +6530,7 @@ img.card-img-top{
 
               } // two
 
-              .three{
+              .gin{
                 bottom: 10px;
                 left: 7px;
 
@@ -6555,7 +6556,7 @@ img.card-img-top{
 
               } // three
 
-              .four{
+              .moment{
                 bottom: -11px;
                 left: 6px;
 
@@ -6581,7 +6582,7 @@ img.card-img-top{
 
               } // four
 
-              .five{
+              .connoisseur{
                 bottom: -11px;
                 left: 6px;
 
@@ -6647,7 +6648,7 @@ img.card-img-top{
                   transform: scale(1);
                 } // img
 
-                .one{
+                .WORLD{
                   bottom: 10px;
                   left: 7px;
 
@@ -6672,7 +6673,7 @@ img.card-img-top{
                 } // one
                 
 
-                .two{
+                .whiskey{
                   bottom: -11px;
                   left: 6px;
 
@@ -6697,7 +6698,7 @@ img.card-img-top{
 
                 } // two
 
-                .three{
+                .gin{
                   bottom: 10px;
                   left: 7px;
 
@@ -6723,7 +6724,7 @@ img.card-img-top{
 
                 } // three
   
-                .four{
+                .moment{
                   bottom: -11px;
                   left: 6px;
 
@@ -6749,7 +6750,7 @@ img.card-img-top{
 
                 } // four
   
-                .five{
+                .connoisseur{
                   bottom: -11px;
                   left: 6px;
 
