@@ -5488,6 +5488,137 @@ img.card-img-top{
 } // 379
 
 
+
+/* start-wrapper */
+.wrapper-section {
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  display: grid;
+  gap: 58px;
+  transform: rotate(2deg);
+  }
+
+  .wrapper-section-owl .owl-stage{
+      display: flex;
+      gap: 127px;
+/*       
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+  }
+
+
+
+  .img-wrapper{
+      width: 171px !important;
+      height: 160px;
+      margin-bottom: 30px;
+  }
+
+  .wrapper-section  h1{
+    font-weight: 500;
+   position: relative ;  
+   text-align: left;
+  font: normal normal normal 24px/24px Futura PT;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-bottom: 30px;
+ }
+
+ .wrapper-section  h1::before{
+   background: #54b3a1;
+   position: absolute;
+   content: "";
+    top: 28px;
+    width: 29px;
+    height: 2px;
+ }
+
+  .wrapper-section  p{
+      text-align: left;
+      font: normal normal normal 18px/21px Futura PT;
+      letter-spacing: 0px;
+      color: #F5F5F5;
+      width: 222px;
+      transform: rotate(0deg);
+  }
+
+  .img-arrow{
+    width: 25px!important;
+    height: 16px;
+    transform: rotate(-2deg) translate(-43px, 12px);
+    -webkit-transform: rotate(-2deg) translate(-43px, 12px);
+    -moz-transform: rotate(-2deg) translate(-43px, 12px);
+    -ms-transform: rotate(-2deg) translate(-43px, 12px);
+    -o-transform: rotate(-2deg) translate(-43px, 12px);
+}
+
+  .wrapper-section .hover-more {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrapper-section button.more.btn{
+    color: #ABABAB !important;
+    transform: translateX(-15px);
+    font: 15px/24px Futura PT !important;
+}
+
+
+@media (max-width: 586px){
+  .wrapper-section-owl .owl-stage{
+    gap: 0;
+  }
+
+  .wrapper-section p{
+    font: normal normal normal 14px/21px Futura PT;
+  }
+  .wrapper-section .hover-more {
+    width: 161%;
+  }
+
+  .img-wrapper{
+    width: 77px !important;
+    height: 118px;
+}
+
+.box-wrapper{
+  max-width: 100px;
+}
+
+}
+
+@media (max-width: 538px){
+  .wrapper-section-owl .owl-stage{
+    gap: 61px;
+  }
+}
+
+@media (max-width: 420px){
+  .wrapper-section-owl .owl-stage{
+    gap: 45px;
+  }
+
+  .wrapper-section p{
+    width: 194px;
+  }
+
+}
+
+@media (max-width: 390px){
+  .wrapper-section-owl .owl-stage{
+    gap: 27px;
+  }
+
+  .wrapper-section p{
+    width: 194px;
+  }
+
+}
+
+/* end-wraper */
+
+
 .card-wrapper{
 
   .whiskey-card{
